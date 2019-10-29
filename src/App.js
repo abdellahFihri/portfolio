@@ -30,7 +30,8 @@ function App() {
       />
       <About
       salute={greeting}
-avatar={avatar}
+      avatar={avatar}
+      name=""
       />
       <Projects/>
       <Cv

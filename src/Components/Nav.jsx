@@ -2,11 +2,32 @@ import React, { Component } from 'react';
 import Navbar from 'react-bootstrap/Navbar';
 
 
+
 class Nav extends Component {
-    state = {  }
-    render() { 
+    state = {
+              currentScrollHeight:'',
+              style: ''  
+             }
+
+    componentDidMount () { 
+      
+      window.onscroll =()=>{
+       const newScrollHeight = Math.ceil(window.scrollY / 0.2) *0.2;
+       if (this.state.currentScrollHeight <= newScrollHeight){
+           this.setState({currentScrollHeight: newScrollHeight,style:'none'})
+       } 
+        if( this.state.currentScrollHeight>newScrollHeight){
+       this.setState({currentScrollHeight: newScrollHeight});
+       this.state.currentScrollHeight===newScrollHeight? this.setState({style:''}):this.setState({style:'none'});
+       }
+     }
+   }
+   
+    render() {
+    
+     const property=this.state.style;
         return ( 
-            <Navbar className="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+            <Navbar  style={{display:property}} className="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
             <div className="container">
               <a id="myname"  className="navbar-brand js-scroll-trigger" href="Header">Abdellah Fihri</a>
               <button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">

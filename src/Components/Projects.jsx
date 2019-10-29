@@ -10,8 +10,8 @@ class Projects extends Component {
     constructor(props){
         super()
     }
+    
     render() {
-        console.log(this.props.belgium) 
         Aos.init()
         return (  
             <section id="projects" className="projects-section bg-light">
@@ -23,7 +23,7 @@ class Projects extends Component {
                          </div>
                    <div className="col-xl-4 col-lg-5">
                          <div id="iceDiscription"className="featured-text text-center text-lg-left">
-                        <h4  data-aos="fade-up">Ice cream selector</h4>
+                        <h4  data-aos="zoom-in"  data-aos-duration="3000">Ice cream selector</h4>
                        <p   data-aos="fade-up"
      data-aos-duration="3000"id="projectDiscription" className="text-50 mb-0">
                            This ice cream selector exercise was  good to test our sense of logic and conditionals,
@@ -45,7 +45,7 @@ class Projects extends Component {
                      <div className="bg-black text-center h-100 project">
                           <div className="d-flex h-100">
                                <div className="project-text w-100 my-auto text-center text-lg-left">
-                                  <h4 data-aos="fade-up" className="text-white">Belgium flag</h4>
+                                  <h4 data-aos="zoom-in"  data-aos-duration="3000" className="text-white">Belgium flag</h4>
                                      <p   data-aos="fade-up"
      data-aos-duration="3000"className="mb-0 text-white-50">
                                          This exercise was about responsivity. We see in here that the flag expands to take about 60% of the view 
@@ -68,7 +68,7 @@ class Projects extends Component {
           <div className="bg-black text-center h-100 project">
                     <div className="d-flex h-100">
                         <div className="project-text w-100 my-auto text-center text-lg-right">
-                               <h4 data-aos="fade-up" className="text-white">Belgium flag resized</h4>
+                               <h4 data-aos="zoom-in"  data-aos-duration="3000" className="text-white">Belgium flag resized</h4>
                                  <p  data-aos="fade-up"
      data-aos-duration="3000"className="mb-0 text-white-50">
                                      after making the browser window smaller, at some range the belgian flag will shrink to the middle of the page, the
@@ -89,7 +89,7 @@ class Projects extends Component {
       <div className="row align-items-center no-gutters mt-5 mb-4 mb-lg-5">
                    <div className="col-xl-4 col-lg-5">
                          <div id="text-right" className="featured-text text-center text-lg-left">
-                        <h4 data-aos="fade-up">The air selector</h4>
+                        <h4 data-aos="zoom-in"  data-aos-duration="3000">The air selector</h4>
                        <p  data-aos="fade-up"
      data-aos-duration="3000"id="projectDiscription" className="text-50 mb-0">
                            This exercise was quite challenging,working with the time to determine the prices on tickets was interessting. Setting

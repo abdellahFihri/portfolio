@@ -4,10 +4,6 @@ class About extends Component {
     constructor(props){
         super()    
     }
-
-    
-    
-  
     render() {
         const {salute,avatar}=this.props;
         Aos.init()
