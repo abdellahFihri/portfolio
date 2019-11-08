@@ -1,17 +1,19 @@
-/*!
- * Start Bootstrap - Grayscale v5.0.9 (https://startbootstrap.com/template-overviews/grayscale)
- * Copyright 2013-2019 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-grayscale/blob/master/LICENSE)
- */
- html {
+html {
   scroll-behavior: smooth;
 }
- #mainNav {
+body {
+  margin: 0;
+}
+#mainNav {
   height: 70px;
-  background: linear-gradient(to right, rgba(0,0,0,1) 0%,rgba(45, 45, 45, 0.473) 100%);
+  background: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(75, 72, 87, 0.877) 100%
+  );
   color: #949494;
   border-radius: 0 0 10px 10px;
-  animation:scale-in-ver-top .4s ease-in-out alternate both
+  animation: scale-in-ver-top 0.4s ease-in-out alternate both;
 }
 
 #mainNav .navbar-toggler {
@@ -24,50 +26,49 @@
 #mainNav .navbar-toggler:focus {
   outline: none;
 }
-#mainNav .nav-link{
+#mainNav .nav-link {
   color: #e0e2e2;
   font-size: 15px;
-  
 }
 
 #mainNav .navbar-brand {
   color: #e0e0e0;
   font-weight: 500;
-  padding: .9rem 0;
+  padding: 0.9rem 0;
 }
 
 #mainNav .navbar-nav .nav-item:hover {
-  color:( fade (rgb(255, 255, 255)55, 255, 255), 80%);
+  color: (fade (rgb(255, 255, 255) 55, 255, 255), 80%);
   outline: none;
- 
 }
-#cvEmbed{
+#cvEmbed {
   display: none;
 }
 
 .projects-section .project-text hr {
   border-color: rgb(113, 60, 236);
-  border-width: .25rem;
+  border-width: 0.25rem;
   width: 30%;
 }
 
-#mainNav .navbar-nav .nav-item:active, #mainNav .navbar-nav .nav-item:focus {
+#mainNav .navbar-nav .nav-item:active,
+#mainNav .navbar-nav .nav-item:focus {
   outline: none;
   background-color: transparent;
 }
-@media (max-width:524px){
-  #myname{
+@media (max-width: 524px) {
+  #myname {
     display: none;
   }
-  #cvEmbed{
+  #cvEmbed {
     display: none;
   }
-  #mainNav .nav-link{
-    margin-right:2px;
+  #mainNav .nav-link {
+    margin-right: 2px;
   }
   .projects-section .project-text hr {
     border-color: rgb(113, 60, 236);
-    border-width: .25rem;
+    border-width: 0.25rem;
     width: 30%;
   }
 }
@@ -78,13 +79,17 @@
     padding-top: 0;
     padding-bottom: 0;
     border-bottom: none;
-    background: linear-gradient(to right, rgba(0,0,0,1) 0%,rgba(45, 45, 45, 0.473) 100%);
+    background: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 1) 0%,
+      rgba(75, 72, 87, 0.877) 100%
+    );
     transition: background-color 0.3s ease-in-out;
-    animation:scale-in-ver-top .4s ease-in-out alternate both
+    animation: scale-in-ver-top 0.4s ease-in-out alternate both;
   }
 
   #mainNav .navbar-brand {
-    padding: .5rem 0;
+    padding: 0.5rem 0;
     color: rgb(184, 184, 184);
   }
   #mainNav .nav-link {
@@ -93,13 +98,17 @@
     color: rgb(206, 200, 200);
   }
   #mainNav .nav-link:hover {
-    color: rgba(18, 165, 109, 0.822);
+    color: whitesmoke;
   }
   #mainNav .nav-link:active {
     color: white;
   }
   #mainNav.navbar-shrink {
-    background-color:linear-gradient(to right, rgba(0,0,0,1) 0%,rgba(45, 45, 45, 0.473) 100%);
+    background-color: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 1) 0%,
+      rgba(45, 45, 45, 0.473) 100%
+    );
   }
   #mainNav.navbar-shrink .navbar-brand {
     color: #bbbaba;
@@ -110,7 +119,7 @@
     border-bottom: 0.25rem solid transparent;
   }
   #mainNav.navbar-shrink .nav-link:hover {
-    color: #64a19d;
+    color: whitesmoke;
   }
   #mainNav.navbar-shrink .nav-link:active {
     color: #467370;
@@ -128,7 +137,7 @@
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background:url(./img/indexBG.png) ;
+  background: url(./img/indexBG.png);
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -136,20 +145,34 @@
 }
 
 .masthead h1 {
-  font-family: 'Varela Round';
+  font-family: "Varela Round";
   font-size: 2rem;
   line-height: 2.5rem;
   letter-spacing: 0.8rem;
-  background: -webkit-linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+  background: -webkit-linear-gradient(
+    rgba(255, 255, 255, 0.9),
+    rgba(255, 255, 255, 0)
+  );
   -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
+  background-clip: text;
 }
-#title{animation:text-blur-out 1.2s cubic-bezier(.55,.085,.68,.53) 1s reverse both}
-@keyframes text-blur-out{0%{filter:blur(.01)}100%{filter:blur(12px) opacity(0)}}
+#title {
+  animation: text-blur-out 1.2s cubic-bezier(0.55, 0.085, 0.68, 0.53) 1s reverse
+    both;
+}
+@keyframes text-blur-out {
+  0% {
+    filter: blur(0.01);
+  }
+  100% {
+    filter: blur(12px) opacity(0);
+  }
+}
 .masthead h2 {
   max-width: 20rem;
   font-size: 1rem;
-  animation:text-blur-out 2s cubic-bezier(.55,.085,.68,.53) 2s reverse both
+  animation: text-blur-out 2s cubic-bezier(0.55, 0.085, 0.68, 0.53) 2s reverse
+    both;
 }
 
 @media (min-width: 768px) {
@@ -175,32 +198,42 @@
   }
 }
 
-.btn-header{
+.btn-header {
   box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
   color: rgb(185, 185, 185);
   padding: 1.25rem 2rem;
-  font-family: 'Varela Round';
+  font-family: "Varela Round";
   font-size: 80%;
   text-transform: uppercase;
-  letter-spacing: .15rem;
+  letter-spacing: 0.15rem;
   border: 0;
-  animation:text-blur-out 2s cubic-bezier(.55,.085,.68,.53) 3s reverse both
+  animation: text-blur-out 2s cubic-bezier(0.55, 0.085, 0.68, 0.53) 3s reverse
+    both;
 }
 
 .btn-header {
-  background: linear-gradient(to right, rgba(4,132,229,1) 0%,rgba(50,0,153,1) 100%);
+  background: linear-gradient(
+    to right,
+    rgba(4, 132, 229, 1) 0%,
+    rgba(50, 0, 153, 1) 100%
+  );
   border-radius: 2rem;
-  
-  box-shadow: 11px 10px 14px -12px rgba(0,0,0,0.75);
-  outline-color: rgba(0, 128, 128, 0);
 
+  box-shadow: 11px 10px 14px -12px rgba(0, 0, 0, 0.75);
+  outline-color: rgba(0, 128, 128, 0);
 }
 
-
-.btn-header:hover{
-color:rgb(206, 205, 205);
-box-shadow: 0px 0px 20px 11px rgba(68,118,245,1);
-
+.btn-header:hover {
+  color: whitesmoke;
+  box-shadow: 0px 0px 20px 11px rgb(68, 210, 245) !important;
+  text-decoration: none !important;
+}
+#cv-btn {
+  color: rgb(185, 185, 185) !important;
+}
+#cv-btn:hover {
+  box-shadow: none !important;
+  color: whitesmoke !important;
 }
 
 .btn-primary:focus {
@@ -214,26 +247,35 @@ box-shadow: 0px 0px 20px 11px rgba(68,118,245,1);
 
 .about-section {
   padding-top: 10rem;
-  background: linear-gradient(to bottom, rgba(0,0,0,1) 0%,rgba(102,102,102,1) 100%);
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(102, 102, 102, 1) 100%
+  );
 }
-#avatar{
+#avatar {
   color: #8d8d8d;
   text-align: left;
-
 }
-#avatar img{
+#avatar img {
   width: 10rem;
   margin-top: -3rem;
   float: left;
   border-radius: 5px;
+  margin-right: 0.25rem;
 }
-#avatar-infos{
+#avatar-infos {
   color: rgb(148, 148, 148);
 }
-#hr{
+#hr {
   border: 0;
   height: 1px;
-  background-image: linear-gradient(to right, rgba(163, 238, 248, 0), rgba(80, 213, 253, 0.87), rgba(55, 196, 231, 0));
+  background-image: linear-gradient(
+    to right,
+    rgba(163, 238, 248, 0),
+    rgba(80, 169, 253, 0.87),
+    rgba(55, 196, 231, 0)
+  );
 }
 .about-section p {
   margin-bottom: 5rem;
@@ -244,7 +286,7 @@ box-shadow: 0px 0px 20px 11px rgba(68,118,245,1);
 }
 .projects-section .project-text hr {
   border-color: rgb(113, 60, 236);
-  border-width: .25rem;
+  border-width: 0.25rem;
   width: 30%;
 }
 
@@ -252,36 +294,35 @@ box-shadow: 0px 0px 20px 11px rgba(68,118,245,1);
   padding: 2rem;
   border-right: 0.5rem solid rgb(113, 60, 236);
   border-left: none;
-  border-bottom :0.05rem solid rgb(113, 60, 236);
+  border-bottom: 0.05rem solid rgb(113, 60, 236);
 }
-#projectDiscription{
-  color:rgb(53, 53, 53);
-  
+#projectDiscription {
+  color: rgb(53, 53, 53);
 }
 
 @media (min-width: 992px) {
   .projects-section .featured-text {
-    color:rgb(56, 56, 56);
+    color: rgb(56, 56, 56);
     padding: 0 0 0 2rem;
     /* border-left: 0.5rem solid purple; */
   }
 }
-#text-right{
-  color:rgb(56, 56, 56);
+#text-right {
+  color: rgb(56, 56, 56);
   border-left: 0.5rem solid rgb(113, 60, 236);
   border-right: none;
-  border-bottom:none;
+  border-bottom: none;
   border-top: 0.05rem solid rgb(113, 60, 236);
-  
-  border-radius:40px 0 0 0 ;
+
+  border-radius: 40px 0 0 0;
 }
-#iceDiscription{
-  color:rgb(61, 61, 61);
-  
+#iceDiscription {
+  color: rgb(61, 61, 61);
+
   border-radius: 40px 0 40px 0;
 }
-#projectDiscription{
-  color:rgb(56, 56, 56);
+#projectDiscription {
+  color: rgb(56, 56, 56);
 }
 
 .projects-section .project-text {
@@ -295,30 +336,33 @@ box-shadow: 0px 0px 20px 11px rgba(68,118,245,1);
   }
   .projects-section .project-text hr {
     border-color: rgb(113, 60, 236);
-    border-width: .25rem;
+    border-width: 0.25rem;
     width: 30%;
   }
 }
-embed{
+embed {
   width: 80%;
   height: 120vh;
 }
-#cvEmbed{
+#cvEmbed {
   display: flex;
   justify-content: center;
   margin-bottom: 2rem;
 }
-#cv-btn{
-  display:flex;
+#cv-btn {
+  display: flex;
   justify-content: center;
   margin-bottom: 2rem;
 }
 
-
-
 .signup-section {
   padding: 10rem 0;
-  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%);
+  background: linear-gradient(
+    to bottom,
+    rgba(22, 22, 22, 0.1) 0%,
+    rgba(22, 22, 22, 0.5) 75%,
+    #161616 100%
+  );
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -329,7 +373,7 @@ embed{
   box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
   padding: 1.25rem 2rem;
   height: auto;
-  font-family: 'Varela Round';
+  font-family: "Varela Round";
   font-size: 80%;
   text-transform: uppercase;
   letter-spacing: 0.15rem;
@@ -338,18 +382,22 @@ embed{
 
 .contact-section {
   padding: 5rem 0 0;
-  background: linear-gradient(to bottom, rgba(0,0,0,1) 0%,rgba(102,102,102,1) 100%);
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(102, 102, 102, 1) 100%
+  );
 }
 
 .contact-section .card {
   border: 0;
-  border-bottom: 0.50rem solid rgb(113, 60, 236);
+  border-bottom: 0.5rem solid rgb(113, 60, 236);
   border-radius: 20px;
 }
 
 .contact-section .card h4 {
   font-size: 0.8rem;
-  font-family: 'Varela Round';
+  font-family: "Varela Round";
   text-transform: uppercase;
   letter-spacing: 0.15rem;
 }
@@ -363,7 +411,7 @@ embed{
 .contact-section .social {
   margin-top: 5rem;
 }
-#contactCards{
+#contactCards {
   margin-bottom: 5rem;
 }
 
@@ -386,7 +434,7 @@ embed{
 }
 
 body {
-  font-family: 'Nunito';
+  font-family: "Nunito";
   letter-spacing: 0.0625em;
 }
 
@@ -394,7 +442,8 @@ a {
   color: #64a19d;
 }
 
-a:focus, a:hover {
+a:focus,
+a:hover {
   text-decoration: none;
   color: #3c6360;
 }
@@ -414,4 +463,16 @@ a:focus, a:hover {
 footer {
   padding: 5rem 0;
 }
-@keyframes scale-in-ver-top{0%{transform:scaleY(0);transform-origin:100% 0;opacity:1}100%{transform:scaleY(1);transform-origin:100% 0;opacity:1}}
+@keyframes scale-in-ver-top {
+  0% {
+    transform: scaleY(0);
+    transform-origin: 100% 0;
+    opacity: 1;
+  }
+  100% {
+    transform: scaleY(1);
+    transform-origin: 100% 0;
+    opacity: 1;
+  }
+}
+@keyframes fade-out-top{0%{transform:translateY(0);opacity:1}100%{transform:translateY(-50px);opacity:0}}

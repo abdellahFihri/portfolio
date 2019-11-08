@@ -1,8 +1,8 @@
 import React from 'react';
 
 
-const Contact=(props)=>{
-               const {typeInfo,infoText}=props; 
+const Contact=({typeInfo,infoText})=>{
+            //    const {typeInfo,infoText}=props; 
            return(    
                   <div  className="col-md-4 mb-3 mb-md-0">
                       <div  className="card py-4 h-100">
