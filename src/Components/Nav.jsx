@@ -23,7 +23,7 @@ class Nav extends Component {
    }
    
     render() {
-    const {changeLanguage,main,about,projects,contact}=this.props;
+    const {changeLanguage,about,projects,contact}=this.props;
     
      const property=this.state.style;
         return ( 
@@ -33,9 +33,6 @@ class Nav extends Component {
             
               <div className=" navbar-collapse" id="navbarResponsive">
                 <ul className="navbar-nav ml-auto">
-                  <li className="nav-item">
-                    <a className="nav-link js-scroll-trigger" href="#Header">{main}</a>
-                  </li>
 
                   <li className="nav-item">
                     <a className="nav-link js-scroll-trigger" href="#about">{about}</a>

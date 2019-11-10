@@ -22,7 +22,7 @@
         
         "name":"Name: Abdellah Fihri",
         "birth":"Birth: 22/11/1984",
-        "living":"City: Ostende",
+        "living":"City: Ostend",
         "aboutText":"IT has always been my biggest interest. From an early age,\n I was involved with repairing computers, immersing myself in the world of internet of things and starting programming small web applications. When I came into contact with programming, I realized that I wanted to develop myself further in . That is why I chose to follow the front-end developer course at INTEC BRUSSELS. I am currently strengthening my knowledge of Javascript, step by step I want to learn more languages."
 
     },
@@ -44,6 +44,7 @@
         "cvBtn":"DOWNLOAD CV"
         
     },
+    "resume":"eng",
     "contact":{
         "addressTag":"ADDRESS",
          "emailTag":"E-MAIL",
@@ -61,11 +62,11 @@
     "contact":"Contact"
 
 },
-"salutation":{"morning":"Goemorgen",
-    "noon":"Goemiddag",
-    "afterNoon":"Goenamiddag",
-  "evening":"Goeavond",
-   "night":"Goenacht"  },
+"salutation":{"morning":"Goedemorgen",
+    "noon":"Goedemiddag",
+    "afterNoon":"Goedenamiddag",
+  "evening":"Goedeavond",
+   "night":"Goedenacht"  },
 "header":{
     "main":"LOVE FOR GRADIENT CURVED DESIGN",
     "sub":"Ik heb een passie voor elegant en responsief ontwerp met prachtige gradiëntkleuren, vloeind elementen, mooie zwevende effecten en zachte lichte schaduweffecten",
@@ -96,9 +97,10 @@
     "cvBtn":"CV DOWNLOADEN"
     
 },
+"resume":"nl",
 "contact":{
-    "address-tag":"ADRES",
-     "email-tag":"E-MAIL",
+    "addressTag":"ADRES",
+     "emailTag":"E-MAIL",
      "gsm":"GSM"
 }
 
@@ -108,7 +110,7 @@
     "nav":{
         "name":"Abdellah Fihri",
         "main":"Principal",
-        "about":"Apropos",
+        "about":"A propos",
         "projects":"Projets",
         "contact":"Contact"
     
@@ -127,7 +129,7 @@
         "name":"Nom: Abdellah Fihri",
         "birth":"Naissance: 22/11/1984",
         "living":"Ville: Ostende",
-        "aboutText":"L'informatique a toujours été mon plus grand intérêt. Dès mon plus jeune âge, je reparais les ordinateurs, à une immersion dans le monde de l’Internet des objets et à la programmation de petites applications Web. Quand je suis entré en contact avec la programmation, j'ai réalisé que je voulais me développer davantage. C'est pourquoi j'ai choisi de suivre le cours de développeur front-end à INTEC BRUSSELS. Je suis actuellement en train de renforcer mes connaissances en Javascript. Je souhaite apprendre pas à pas davantage de langues."
+        "aboutText":"L'informatique a toujours été mon plus grand intérêt. Dès mon plus jeune âge, je reparais les ordinateurs, à une immersion dans le monde d'Internet des objets et à la programmation de petites applications Web. Quand je suis entré en contact avec la programmation, j'ai réalisé que je voulais me développer d'avantage. C'est pourquoi j'ai choisi de suivre le cours de développeur FRONT-END à INTEC BRUSSELS. Je suis actuellement en train de renforcer mes connaissances en Javascript. Je souhaite apprendre pas à pas davantage de langues."
     
     },
     "projects":{
@@ -145,12 +147,13 @@
             "title":"Air selector",
             "text":"Cet exercice était assez difficile, travailler avec les dates pour déterminer les prix des billets était intéressant. Fixant le prix de départ à 1000 €, le prix diminue de 1% chaque jour avant le jour actuel. À partir de chaque billet acheté, le prix initial doit diminuer de 10%. Pourtant, les deux derniers passagers devront payer le double du prix initial après les remises. Cependant, si la date de voyage choisie est la date actuelle, le prix sera de 1000 € sans aucune réduction ou réduction après l'achat d'un billet.Et si le prix initial après la réduction quotidienne de 1% est inférieur à 100 €, il y aura une limite de 100 € au minimum par billet. Sachant que les billets disponibles sont 10 et que les passagers ne doivent pas dépasser cette limite."
         },
-        "cvBtn":"TELECHATGER LE CV"
+        "cvBtn":"TELECHAGER LE CV"
         
     },
+    "resume":"fr",
     "contact":{
-        "address-tag":"ADRESSE",
-         "email-tag":"E-MAIL",
+        "addressTag":"ADRESSE",
+         "emailTag":"E-MAIL",
          "gsm":"GSM"
     }
     

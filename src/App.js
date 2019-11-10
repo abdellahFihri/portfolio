@@ -1,11 +1,14 @@
+/* eslint-disable no-fallthrough */
 import React, {useState}  from 'react';
-import Navbar from './Components/Nav';
+import Example from './Components/Nav';
 import Header from './Components/Header';
 import About from './Components/About';
 import Projects from './Components/Projects';
 import Contactcontainer from './Components/Contactcontainer';
 import Contact from './Components/Contact';
-import Resume from './documents/AbdellahFihriCV.pdf';
+ import resumeEng from './documents/AbdellahFihriCVTRY.pdf';
+ import resumeNl from './documents/AbdellahFihriCV.pdf';
+ import resumeFr from './documents/AbdellahFihriCVFR.pdf';
 import avatar from './img/myAvatar.jpg';
 import Cv from './Components/Cv';
 
@@ -17,7 +20,9 @@ function App() {
 let activeLn="eng";
 let languages=lang;
 let ln=languages.lang;
-console.log('1st con.log ' ,languages.lang.nl)
+
+// console.log('1st con.log ' ,languages.lang.nl)
+// console.log('what i want to see ',activeLn)
 
 
 const [language,setLanguage]=useState(languages.lang.eng);
@@ -27,10 +32,31 @@ const handleChangeLanguages=()=>{
   activeLn = ln[selectedLAng]
   setLanguage(activeLn)
   activeLanguage=activeLn
-  console.log(activeLn.nav.name)
+  console.log(activeLn.nav.name) 
+}
+console.log('resume in json ',language.resume)
+let resume
+switch(language.resume){
+  case "fr":
+    resume=resumeFr
+  break;
+  case "nl":
+    resume=resumeNl
+  break;
+ case "eng":
+   resume=resumeEng
+   break;
+  default:
+    return resume
+
 }
 
+console.log('resume',resume)
+
+
+
   console.table(languages.lang.eng)
+
   
 
   const{nav,header,about,projects,contact,salutation}=language
@@ -46,8 +72,8 @@ const handleChangeLanguages=()=>{
   return (
  
     <div className="App">
-      <Navbar  changeLanguage={handleChangeLanguages}
-      main={nav.main}
+      <Example  changeLanguage={handleChangeLanguages}
+      // main={nav.main}
       about={nav.about}
       projects={nav.projects}
       contact={nav.contact}
@@ -95,8 +121,8 @@ const handleChangeLanguages=()=>{
      </p>}    
       />
       <Cv
-      cv={ <embed id="cvEmbed" src={Resume} />}
-      href={Resume}
+      // cv={ <embed id="cvEmbed" src="../AbdellahFihriCV.pdf" />}
+      href={resume}
       cvBtn={projects.cvBtn}
       target="_blank"/>
       <Contactcontainer>
@@ -105,7 +131,7 @@ const handleChangeLanguages=()=>{
       infoText={<a href="http://maps.google.com/maps?q=47A+Nijverheidstraat,+8400,+Oostende">
        <b> Abdellah Fihri</b> <br/>
         Nijverheidstraat 47A <br/>
-        8400 Oostende</a> }
+        8400 {about.living}</a> }
       />
        <Contact
       typeInfo={contact.emailTag}
