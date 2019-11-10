@@ -1,0 +1,160 @@
+{"lang":{
+    "eng":{
+    "nav":{
+        "name":"Abdellah Fihri",
+        "main":"Main",
+        "about":"About",
+        "projects":"Projects",
+        "contact":"Contact"
+
+    },
+    "salutation":{"morning":"Good morning",
+        "noon":"Good afternoon",
+        "afterNoon":"Good afternoon",
+      "evening":"Good evening",
+       "night":"Good night"  },
+    "header":{
+        "main":"LOVE FOR GRADIENT CURVED DESIGN",
+        "sub":"I have passion for elegant and responsive design using beautiful gradient colors, curved element boxes, nice hover effects and soft light drop-shadows effect.",
+        "buttonText":"GO FURTHER"
+    },
+    "about":{
+        
+        "name":"Name: Abdellah Fihri",
+        "birth":"Birth: 22/11/1984",
+        "living":"City: Ostende",
+        "aboutText":"IT has always been my biggest interest. From an early age,\n I was involved with repairing computers, immersing myself in the world of internet of things and starting programming small web applications. When I came into contact with programming, I realized that I wanted to develop myself further in . That is why I chose to follow the front-end developer course at INTEC BRUSSELS. I am currently strengthening my knowledge of Javascript, step by step I want to learn more languages."
+
+    },
+    "projects":{
+        "icecream":{
+            "title":"Ice cream selector",
+            "text":" This ice cream selector exercise was good to test our sense of logic and conditionals. we had to set a limit of 1 ball minimum and 3 balls maximum per vessel, but i've taken this exercise a step further by adding a second vessel option and setting its maximum to 4 balls instead of 3. Now depending on which vessel is chosen at the beginning of the selection the maximum reach will vary. after the selection validation an alert appears to give us a summary of our selection, or a warning message in case invalid selections."
+        },
+        "belgium":{
+            "title1":"Belgium flag",
+            "title2":"Belgium flag resized",
+            "text1":"This exercise was about responsivity, we see in here that the flag expands to take about 60% of the view with belgian fries in the middle of it.",
+            "text2":"after making the browser window smaller, at some range the belgian flag will shrink to the middle of the page, the red color will go below, and the fries will turn into mannekepiss."
+        },
+        "air":{
+            "title":"The air selector",
+            "text":"This exercise was quite challenging,working with dates to determine the prices on tickets was interessting. Setting the start price as 1000€, The price decreases by 1% each day ahead of the actual day. By each purchased ticket the initial price must decrease by 10%, And yet the last 2 passengers will have to pay double of the initial price after the discounts.Yet if the chosen travel date is the actual date, the price will be 1000€ without any discounts nor discounts after a ticket purchase.And if the initial price after daily discount of 1 % will go bellow the 100€, then there will be a limit of 100€ as minimum per ticket. Knowing that the available tickets are 10 and the passengers must not exeed this limit."
+        },
+        "cvBtn":"DOWNLOAD CV"
+        
+    },
+    "contact":{
+        "addressTag":"ADDRESS",
+         "emailTag":"E-MAIL",
+         "gsm":"GSM"
+    }
+
+         
+},
+"nl":{
+"nav":{
+    "name":"Abdellah Fihri",
+    "main":"Hoofd",
+    "about":"Over",
+    "projects":"projecten",
+    "contact":"Contact"
+
+},
+"salutation":{"morning":"Goemorgen",
+    "noon":"Goemiddag",
+    "afterNoon":"Goenamiddag",
+  "evening":"Goeavond",
+   "night":"Goenacht"  },
+"header":{
+    "main":"LOVE FOR GRADIENT CURVED DESIGN",
+    "sub":"Ik heb een passie voor elegant en responsief ontwerp met prachtige gradiëntkleuren, vloeind elementen, mooie zwevende effecten en zachte lichte schaduweffecten",
+    "buttonText":"VERDER GAAN"
+},
+"about":{
+    "name":"Naam: Abdellah Fihri",
+    "birth":"Geborte: 22/11/1984",
+    "living":"Woonplaats: Oostende",
+    "aboutText":"IT is steeds mijn grootste interesse geweest. Van jongs af aan hield ik me bezig met het repareren van computers, verdiepte ik me in de wereld van internet of things en startte ik met het programmeren van kleine webapplicaties. Wannneer ik meer en meer in aanraking kwam met programmeren, besefte ik me vooral hier verder in te willen ontwikkelen. Vandaar dat ik ervoor koos de opleiding front-end developer te volgen bij INTEC BRUSSEL. Momenteel versterk ik mijn kennis van Javascript, stap voor stap wil ik me meer talen eigen maken."
+
+},
+"projects":{
+    "icecream":{
+        "title":"Ice cream selector",
+        "text":" Deze oefening was goed voor ons logica en voorwaardelijke waarden te testen. we kiezen een limiet instellen van minimaal 1 bal en maximaal 3 ballen per vat, maar ik heb deze oefening een stap verder gezet door een tweede vat optie in te voegen en het maximum in te stellen op 4 ballen in plaats van 3. Nu, afhankelijk van welk vat gekozen is in het begin van de selectie, zal het maximale bereik variëren. na de validatie van de selectie, een waarschuwing verschijnt om een ​​samenvatting van onze selectie te geven, of een waarschuwingsbericht in het geval van ongeldige selecties."
+    },
+    "belgium":{
+        "title1":"vlag van België",
+        "title2":"vlag van België verkleind",
+        "text1":"Deze oefening ging over responsiviteit, we zien hier dat de vlag zich uitbreidt om ongeveer 60% van het uitzicht te nemen met Belgische frietjes er middenin.",
+        "text2":"nadat het browservenster kleiner gemaakt is, krimpt de Belgische vlag op een bepaald bereik naar het midden van de pagina, de rode kleur gaat naar beneden en de friet verandert in Manneken-Piss."
+    },
+    "air":{
+        "title":"Air selector",
+        "text":"Deze oefening was behoorlijk uitdagend, het was interessant om met datums te werken om de prijzenvan billeten te bepalen. De startprijs instellen op 1000 €, De prijs daalt elke dag met 1% na de datum van vandaag. Bij elk gekocht ticket moet de oorspronkelijke prijs met 10% dalen, en toch moeten de laatste 2 passagiers na de kortingen het dubbele van de oorspronkelijke prijs betalen. Als de gekozen reisdatum vandaag is, de zal prijs 1000 € zijn zonder kortingen of kortingen na aankoop van een ticket.En als de initiële prijs na dagelijkse korting van 1% onder de € 100 zal blijven, dan is er een limiet van € 100 als minimum per ticket. Wetende dat de beschikbare tickets 10 zijn en de passagiers  mogen deze limiet niet overschrijden."
+    },
+    "cvBtn":"CV DOWNLOADEN"
+    
+},
+"contact":{
+    "address-tag":"ADRES",
+     "email-tag":"E-MAIL",
+     "gsm":"GSM"
+}
+
+     
+},
+"fr":{
+    "nav":{
+        "name":"Abdellah Fihri",
+        "main":"Principal",
+        "about":"Apropos",
+        "projects":"Projets",
+        "contact":"Contact"
+    
+    },
+    "salutation":{"morning":"Bonjour",
+        "noon":"Bonne midi",
+        "afterNoon":"Bonne aprés-midi",
+      "evening":"Bonne soirée",
+       "night":"Bonne nuit"  },
+    "header":{
+        "main":"LOVE FOR GRADIENT CURVED DESIGN",
+        "sub":"J'aime le design élégant et responsif, avec de belles teintes dégradées, des arrondis, et les jolis effets de hover et des animations",
+        "buttonText":"AVANCER"
+    },
+    "about":{
+        "name":"Nom: Abdellah Fihri",
+        "birth":"Naissance: 22/11/1984",
+        "living":"Ville: Ostende",
+        "aboutText":"L'informatique a toujours été mon plus grand intérêt. Dès mon plus jeune âge, je reparais les ordinateurs, à une immersion dans le monde de l’Internet des objets et à la programmation de petites applications Web. Quand je suis entré en contact avec la programmation, j'ai réalisé que je voulais me développer davantage. C'est pourquoi j'ai choisi de suivre le cours de développeur front-end à INTEC BRUSSELS. Je suis actuellement en train de renforcer mes connaissances en Javascript. Je souhaite apprendre pas à pas davantage de langues."
+    
+    },
+    "projects":{
+        "icecream":{
+            "title":"Le selecteur ice-cream",
+            "text":"Cet exercice de sélection de crème glacée nous à permis de tester notre sens de la logique et des conditions. 1 boule minimum et 3 boules maximum par pot, mais j'ai poussé cet exercice plus loin en ajoutant une deuxième option de pots et fixant son maximum à 4 boules au lieu de 3. Maintenant,  dépendant du pot sélectionné au début de la sélection, la portée maximale varie. apres la validation de la  selection, un pop-up message va apparaitre pour nous donner un aperçu de notre selection , ou  un message d'avertissement en cas de mauvaise sélection."
+        },
+        "belgium":{
+            "title1":"Drapeau belge",
+            "title2":"Drapeau belge réduit",
+            "text1":"Cet exercice etait sur la responsivité. Nous voyons ici que le drapeau s’élargit pour occuper environ 60% du champ de vision avec des frites belges au milieu.",
+            "text2":"Après avoir réduit la taille de la fenêtre du navigateur, le drapeau belge se rétrécit au milieu de la page, la couleur rouge passe en dessous et les frites se transforment en Manneken Pis."
+        },
+        "air":{
+            "title":"Air selector",
+            "text":"Cet exercice était assez difficile, travailler avec les dates pour déterminer les prix des billets était intéressant. Fixant le prix de départ à 1000 €, le prix diminue de 1% chaque jour avant le jour actuel. À partir de chaque billet acheté, le prix initial doit diminuer de 10%. Pourtant, les deux derniers passagers devront payer le double du prix initial après les remises. Cependant, si la date de voyage choisie est la date actuelle, le prix sera de 1000 € sans aucune réduction ou réduction après l'achat d'un billet.Et si le prix initial après la réduction quotidienne de 1% est inférieur à 100 €, il y aura une limite de 100 € au minimum par billet. Sachant que les billets disponibles sont 10 et que les passagers ne doivent pas dépasser cette limite."
+        },
+        "cvBtn":"TELECHATGER LE CV"
+        
+    },
+    "contact":{
+        "address-tag":"ADRESSE",
+         "email-tag":"E-MAIL",
+         "gsm":"GSM"
+    }
+    
+         
+    }
+}
+}

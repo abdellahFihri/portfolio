@@ -11,7 +11,7 @@ class Projects extends Component {
     
     render() {
         Aos.init()
-        const {textIce,textBel1,textBel2,textAir,belTitle1,belTitle2,salute}=this.props;
+        const {textIce,textBel1,textBel2,textAir,belTitle1,belTitle2,titleIce,titleAir}=this.props;
         return (  
             <section id="projects" className="projects-section bg-white">
                        <div className="container">
@@ -23,7 +23,7 @@ class Projects extends Component {
                          </div>
                    <div className="col-xl-4 col-lg-5">
                          <div id="iceDiscription"className="featured-text text-center text-lg-left">
-                        <h4  data-aos="zoom-in"  data-aos-duration="3000">Ice cream selector {salute}</h4>
+                        <h4  data-aos="zoom-in"  data-aos-duration="3000"> {titleIce}</h4>
                        {textIce}
                      </div>
                    </div>
@@ -71,7 +71,7 @@ class Projects extends Component {
       <div className="row align-items-center no-gutters mt-5 mb-4 mb-lg-5">
                    <div className="col-xl-4 col-lg-5">
                          <div id="text-right" className="featured-text text-center text-lg-left">
-                        <h4 data-aos="zoom-in"  data-aos-duration="3000">The air selector</h4>
+                        <h4 data-aos="zoom-in"  data-aos-duration="3000">{titleAir}</h4>
                      {textAir}
                      </div>
                    </div>

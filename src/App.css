@@ -15,7 +15,11 @@ body {
   border-radius: 0 0 10px 10px;
   animation: scale-in-ver-top 0.4s ease-in-out alternate both;
 }
-
+#langSelect{
+  background: none;
+  border:none;
+  color: #bbbaba;
+}
 #mainNav .navbar-toggler {
   font-size: 120%;
   padding: 0.75rem;
@@ -63,8 +67,8 @@ body {
   #cvEmbed {
     display: none;
   }
-  #mainNav .nav-link {
-    margin-right: 2px;
+  #mainNav ul {
+  margin-right: 8vw;
   }
   .projects-section .project-text hr {
     border-color: rgb(113, 60, 236);

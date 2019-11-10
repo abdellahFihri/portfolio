@@ -2,7 +2,7 @@
 import React from "react";
 import Aos from "aos";
 
-const Cv = ({ href, target }) => {
+const Cv = ({ href, target,cvBtn }) => {
   Aos.init();
   return (
     <div className="container">
@@ -18,7 +18,7 @@ const Cv = ({ href, target }) => {
           target={target}
         >
           {" "}
-          Download CV
+          {cvBtn}
         </a>
       </div>
     </div>

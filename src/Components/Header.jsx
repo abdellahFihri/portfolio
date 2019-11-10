@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
 class Header extends Component {
   render() {
-    const { title, description } = this.props;
+    const { title, description,btnText } = this.props;
     return (
       <header id="Header" className="masthead">
         <div className="container d-flex h-100 align-items-center">
@@ -12,7 +12,7 @@ class Header extends Component {
             </h1>
             <h2 className="text-white-50 mx-auto mt-2 mb-5">{description}</h2>
             <a href="#about" className="btn-header  js-scroll-trigger">
-              Go further
+              {btnText}
             </a>
           </div>
         </div>
