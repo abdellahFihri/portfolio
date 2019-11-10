@@ -1,11 +1,11 @@
-{  "homepage": "http://abdellahfihri.github.io/staticUpdated",
+{
+  "homepage": "https://abdellahfihri.github.io/portfolio",
   "name": "react.protfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "aos": "^2.3.4",
     "bootstrap": "^4.3.1",
-  
     "react": "^16.10.2",
     "react-bootstrap": "^1.0.0-beta.14",
     "react-dom": "^16.10.2",
