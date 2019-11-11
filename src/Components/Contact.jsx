@@ -1,10 +1,10 @@
 import React from 'react';
 
 
-const Contact=({typeInfo,infoText})=>{
+const Contact=({typeInfo,infoText,classname})=>{
             //    const {typeInfo,infoText}=props; 
            return(    
-                  <div  className="col-md-4 mb-3 mb-md-0">
+                  <div  className={classname}>
                       <div  className="card py-4 h-100">
                           <div  className="card-body text-center">
                              <i className="fas fa-map-marked-alt text-primary mb-2"></i>
