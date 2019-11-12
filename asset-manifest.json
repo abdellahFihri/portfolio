@@ -1,24 +1,25 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.1b94c65d.chunk.css",
-    "main.js": "/portfolio/static/js/main.f130e1e2.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.f130e1e2.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.7d84186a.chunk.css",
+    "main.js": "/portfolio/static/js/main.9f63e3d5.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.9f63e3d5.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.7acce142.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.7acce142.js.map",
     "static/css/2.0624914a.chunk.css": "/portfolio/static/css/2.0624914a.chunk.css",
-    "static/js/2.807ef3ed.chunk.js": "/portfolio/static/js/2.807ef3ed.chunk.js",
-    "static/js/2.807ef3ed.chunk.js.map": "/portfolio/static/js/2.807ef3ed.chunk.js.map",
+    "static/js/2.cceb80c8.chunk.js": "/portfolio/static/js/2.cceb80c8.chunk.js",
+    "static/js/2.cceb80c8.chunk.js.map": "/portfolio/static/js/2.cceb80c8.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.f89463c97ac4e658846d833525e524b4.js": "/portfolio/precache-manifest.f89463c97ac4e658846d833525e524b4.js",
+    "precache-manifest.9573a340f923c99a5513332a857319ac.js": "/portfolio/precache-manifest.9573a340f923c99a5513332a857319ac.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/2.0624914a.chunk.css.map": "/portfolio/static/css/2.0624914a.chunk.css.map",
-    "static/css/main.1b94c65d.chunk.css.map": "/portfolio/static/css/main.1b94c65d.chunk.css.map",
+    "static/css/main.7d84186a.chunk.css.map": "/portfolio/static/css/main.7d84186a.chunk.css.map",
     "static/media/AbdellahFihriCV.pdf": "/portfolio/static/media/AbdellahFihriCV.36aef4e4.pdf",
     "static/media/AbdellahFihriCVFR.pdf": "/portfolio/static/media/AbdellahFihriCVFR.988ccb39.pdf",
     "static/media/AbdellahFihriCVTRY.pdf": "/portfolio/static/media/AbdellahFihriCVTRY.23b77d2c.pdf",
     "static/media/airSelector.png": "/portfolio/static/media/airSelector.1b236295.png",
     "static/media/belgie1.png": "/portfolio/static/media/belgie1.19d61ca9.png",
     "static/media/belgie2.png": "/portfolio/static/media/belgie2.ee595411.png",
+    "static/media/favicon.png": "/portfolio/static/media/favicon.22ecbc1a.png",
     "static/media/ijs-picture.png": "/portfolio/static/media/ijs-picture.af07d099.png",
     "static/media/App.css": "/portfolio/static/media/indexBG.c5659bdb.png",
     "static/media/myAvatar.jpg": "/portfolio/static/media/myAvatar.25be222e.jpg"
@@ -26,8 +27,8 @@
   "entrypoints": [
     "static/js/runtime-main.7acce142.js",
     "static/css/2.0624914a.chunk.css",
-    "static/js/2.807ef3ed.chunk.js",
-    "static/css/main.1b94c65d.chunk.css",
-    "static/js/main.f130e1e2.chunk.js"
+    "static/js/2.cceb80c8.chunk.js",
+    "static/css/main.7d84186a.chunk.css",
+    "static/js/main.9f63e3d5.chunk.js"
   ]
 }
