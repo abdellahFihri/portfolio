@@ -248,7 +248,11 @@ body {
 .btn-primary:active {
   background-color: #467370 !important;
 }
-
+#icon{
+  height:40px;
+  margin-top:3px;
+ margin-left:-3px;
+}
 .about-section {
   padding-top: 10rem;
   background: linear-gradient(
