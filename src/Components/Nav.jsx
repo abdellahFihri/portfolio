@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Navbar from 'react-bootstrap/Navbar';
-import favicon from '../img/favicon.png'
+// import favicon from '../img/favicon.png'
 
 
 
@@ -29,7 +29,7 @@ class Nav extends Component {
      const property=this.state.style;
         return ( 
             <Navbar  style={{display:property}} className="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-            <a href="#Header"> <img id="icon"  src={favicon} alt="icon"/></a>
+            {/* <a href="#Header"> <img id="icon"  src={favicon} alt="icon"/></a> */}
             <div className="container">
               <a id="myname"  className="navbar-brand js-scroll-trigger" href="Header">Abdellah Fihri</a>
             
