@@ -37,7 +37,7 @@ const handleChangeLanguages=()=>{
   activeLanguage=activeLn
   console.log(activeLn.nav.name) 
 }
-console.log('resume in json ',language.resume)
+console.log('resume in json ')
 let resume
 switch(language.resume){
   case "fr":

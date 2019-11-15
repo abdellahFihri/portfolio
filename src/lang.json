@@ -74,7 +74,7 @@
 },
 "about":{
     "name":"Naam: Abdellah Fihri",
-    "birth":"Geborte: 22/11/1984",
+    "birth":"Geboorte: 22/11/1984",
     "living":"Woonplaats: Oostende",
     "aboutText":"IT is steeds mijn grootste interesse geweest. Van jongs af aan hield ik me bezig met het repareren van computers, verdiepte ik me in de wereld van internet of things en startte ik met het programmeren van kleine webapplicaties. Wannneer ik meer en meer in aanraking kwam met programmeren, besefte ik me vooral hier verder in te willen ontwikkelen. Vandaar dat ik ervoor koos de opleiding front-end developer te volgen bij INTEC BRUSSEL. Momenteel versterk ik mijn kennis van Javascript, stap voor stap wil ik me meer talen eigen maken."
 
@@ -116,38 +116,38 @@
     
     },
     "salutation":{"morning":"Bonjour",
-        "noon":"Bonne midi",
-        "afterNoon":"Bonne aprés-midi",
-      "evening":"Bonne soirée",
-       "night":"Bonne nuit"  },
+        "noon":"Bonjour",
+        "afterNoon":"Bon après-midi",
+      "evening":"Bonsoir",
+       "night":"Bonsoir"  },
     "header":{
         "main":"LOVE FOR GRADIENT CURVED DESIGN",
-        "sub":"J'aime le design élégant et responsif, avec de belles teintes dégradées, des arrondis, et les jolis effets de hover et des animations",
+        "sub":"J'aime le design élégant et responsif, avec de belles teintes dégradées, des arrondis, des animations, et des jolis effets de hover ",
         "buttonText":"AVANCER"
     },
     "about":{
         "name":"Nom: Abdellah Fihri",
         "birth":"Naissance: 22/11/1984",
         "living":"Ville: Ostende",
-        "aboutText":"L'informatique a toujours été mon plus grand intérêt. Dès mon plus jeune âge, je reparais les ordinateurs, à une immersion dans le monde d'Internet des objets et à la programmation de petites applications Web. Quand je suis entré en contact avec la programmation, j'ai réalisé que je voulais me développer d'avantage. C'est pourquoi j'ai choisi de suivre le cours de développeur FRONT-END à INTEC BRUSSELS. Je suis actuellement en train de renforcer mes connaissances en Javascript. Je souhaite apprendre pas à pas davantage de langues."
+        "aboutText":"L'informatique a toujours été mon plus grand intérêt. Dès mon plus jeune âge, je réparais des ordinateurs, et je me suis très vite passioné pour le monde de l'IOT et de la programmation de petites applications Web, ce qui m'a fait réalisé que je voulais m'y développer d'avantage et en faire ma profession. C'est pourquoi j'ai choisi de suivre le cours de développeur FRONT-END à INTEC BRUSSELS. Je suis actuellement en train de renforcer mes connaissances en Javascript ainsi que mes connaissances linguistiques."
     
     },
     "projects":{
         "icecream":{
             "title":"Le selecteur ice-cream",
-            "text":"Cet exercice de sélection de crème glacée nous à permis de tester notre sens de la logique et des conditions. 1 boule minimum et 3 boules maximum par pot, mais j'ai poussé cet exercice plus loin en ajoutant une deuxième option de pots et fixant son maximum à 4 boules au lieu de 3. Maintenant,  dépendant du pot sélectionné au début de la sélection, la portée maximale varie. apres la validation de la  selection, un pop-up message va apparaitre pour nous donner un aperçu de notre selection , ou  un message d'avertissement en cas de mauvaise sélection."
+            "text":"Cet exercice de sélection de crème glacée nous a permis de tester notre sens de la logique et des conditions. 1 boule minimum et 3 boules maximum par pot, mais j'ai poussé cet exercice plus loin en ajoutant une deuxième option de pots et fixant son maximum à 4 boules au lieu de 3. Maintenant,  dépendant du pot sélectionné au début de la sélection, la portée maximale varie. apres la validation de la  selection, un pop-up message va apparaitre pour nous donner un aperçu de notre selection , ou  un message d'avertissement en cas de mauvaise sélection."
         },
         "belgium":{
             "title1":"Drapeau belge",
             "title2":"Drapeau belge réduit",
-            "text1":"Cet exercice etait sur la responsivité. Nous voyons ici que le drapeau s’élargit pour occuper environ 60% du champ de vision avec des frites belges au milieu.",
+            "text1":"Cet exercice portait sur la responsivité. Nous voyons ici que le drapeau s’élargit pour occuper environ 60% du champ de vision avec des frites belges au milieu.",
             "text2":"Après avoir réduit la taille de la fenêtre du navigateur, le drapeau belge se rétrécit au milieu de la page, la couleur rouge passe en dessous et les frites se transforment en Manneken Pis."
         },
         "air":{
             "title":"Air selector",
-            "text":"Cet exercice était assez difficile, travailler avec les dates pour déterminer les prix des billets était intéressant. Fixant le prix de départ à 1000 €, le prix diminue de 1% chaque jour avant le jour actuel. À partir de chaque billet acheté, le prix initial doit diminuer de 10%. Pourtant, les deux derniers passagers devront payer le double du prix initial après les remises. Cependant, si la date de voyage choisie est la date actuelle, le prix sera de 1000 € sans aucune réduction ou réduction après l'achat d'un billet.Et si le prix initial après la réduction quotidienne de 1% est inférieur à 100 €, il y aura une limite de 100 € au minimum par billet. Sachant que les billets disponibles sont 10 et que les passagers ne doivent pas dépasser cette limite."
+            "text":"Cet exercice était assez éprouvant, nous devions travailler avec les dates pour déterminer les prix des billets. Fixant le prix de départ à 1000 €, le prix diminue de 1% chaque jour avant le jour actuel. À chaque billet acheté, le prix initial doit diminuer de 10%. Cependant, les deux derniers passagers devront payer le double du prix initial après les remises. De plus, si la date de voyage choisie est la date actuelle, le prix sera de 1000 € sans aucune réduction. Et si le prix initial après la réduction quotidienne de 1% est inférieur à 100 €, il y aura un prix minimum de 100 € par billet. Sachant qu'il y a 10 billets disponibles et que les passagers ne doivent pas dépasser cette limite."
         },
-        "cvBtn":"TELECHAGER LE CV"
+        "cvBtn":"TELECHARGER LE CV"
         
     },
     "resume":"fr",
