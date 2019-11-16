@@ -4,7 +4,8 @@
         "name":"Abdellah Fihri",
         "main":"Main",
         "about":"About",
-        "projects":"Projects",
+        "cv":"CV",
+        "projects":"Works",
         "contact":"Contact"
 
     },
@@ -57,6 +58,7 @@
 "nav":{
     "name":"Abdellah Fihri",
     "main":"Hoofd",
+    "cv":"CV",
     "about":"Over",
     "projects":"projecten",
     "contact":"Contact"
@@ -111,7 +113,8 @@
         "name":"Abdellah Fihri",
         "main":"Principal",
         "about":"A propos",
-        "projects":"Projets",
+        "cv":"CV",
+        "projects":"Traveaux",
         "contact":"Contact"
     
     },
@@ -129,7 +132,7 @@
         "name":"Nom: Abdellah Fihri",
         "birth":"Naissance: 22/11/1984",
         "living":"Ville: Ostende",
-        "aboutText":"L'informatique a toujours été mon plus grand intérêt. Dès mon plus jeune âge, je réparais des ordinateurs, et je me suis très vite passioné pour le monde de l'IOT et de la programmation de petites applications Web, ce qui m'a fait réalisé que je voulais m'y développer d'avantage et en faire ma profession. C'est pourquoi j'ai choisi de suivre le cours de développeur FRONT-END à INTEC BRUSSELS. Je suis actuellement en train de renforcer mes connaissances en Javascript ainsi que mes connaissances linguistiques."
+        "aboutText":"L'informatique a toujours été mon plus grand intérêt. Dès mon plus jeune âge, je réparais des ordinateurs, et je me suis très vite passioné pour le monde de l'IOT et de la programmation de petites applications Web, ce qui m'a fait réalisé que je voulais m'y développer d'avantage et en faire ma profession. C'est pourquoi j'ai choisi de suivre le cours de développeur FRONT-END à INTEC BRUSSELS. Je suis actuellement entrain de renforcer mes connaissances en Javascript ainsi que mes connaissances linguistiques."
     
     },
     "projects":{
@@ -158,6 +161,60 @@
     }
     
          
+    },
+    "ar":{
+        "nav":{
+            "name":"فهري ",
+            "main":"Main",
+            "about":"حول",
+            "cv":"س.ذ",
+            "projects":"أعمال",
+            "contact":"إتصال"
+    
+        },
+        "salutation":{"morning":"صَبَاحُ آلْخَيْر",
+            "noon":"نَهَارُكُمْ سَعِيد",
+            "afterNoon":"نَهَارُكُمْ سَعِيد",
+          "evening":"أُنْعِمْتُم مَسَاءًا",
+           "night":"طَابَتْ لَيْلَتُكُمْ"  },
+        "header":{
+            "main":"LOVE FOR GRADIENT CURVED DESIGN",
+            "sub":"لدي شغف بتصميم أنيق وسريع الاستجابة, باستخدام ألوان متدرِجة جميلة و عناصر ذات أطراف منحنية, وتأثيرات تحَوُّم و إلقاء الضوء الخفيف",
+            "buttonText":"تقدُم"
+        },
+        "about":{
+            
+            "name":"الإسم: فهري عبدالله",
+            "birth":"الإزدياد: 1984/22/11",
+            "living":"المدينة: أوستند",
+            "aboutText":" لطالما كانت المعلوميات  دائما اهتمامي الأكبر. منذ سن مبكرة ، شارَكتُ في إصلاح أجهزة الكمبيوتر وغَمْر نفسي في عالم إنترنت الأشياء وبدء برمجة تطبيقات الويب الصغيرة. عندها أدركْتُ أنِّي أريد تطوير نفسي أكثر في هذا المجال. لهذا السبب اختَرتُ متابعة دروس تطوير صفحات الويب  . أقوم حاليًا بتقوية معرفتي ، و أريد أن أتعلم المزيد من اللغات خطوة بخطوة."
+        },
+        "projects":{
+            "icecream":{
+                "title":"محدد الآيس كريم",
+                "text":"كان تمرين محدد الآيس كريم جيدًا لاختبار إحساسنا بمنطق الشَّرطَية. وضعنا كرة واحدة كحد أدنى  و 3 كرَات كحدٍّ أقصى لكل وعاء ، لكنني دفعتُ هذا التمرين خطوة إلى الأمام عن طريق إضافة خيار آخَر للأوعية، ووضع الحد الأقصى لها في 4 كرَات بدلاً من 3. الآن اعتمادًا على الوعاء المختار، سيتَغيرالحد الأقصى من 3 إلى 4. بعد التحقق من صحة الاختيار ، يَظهَر تنبِيه ليعطينا ملخصًا لاختيارنا أو رسالة تحذير في حالة الإختيارات الغير الصحيحة. "
+            },
+            "belgium":{
+                "title1":" علم بلجيكا",
+                "title2":"تغيير حجم علم بلجيكا",
+                "text1":"كان هذا التمرين حول الاستجابة ، نلاحظ هنا أن العَلَم يتوسَّع ليشمل حوالي 60 في المئة من العرض مع وجود البطاطس المقلية في منتصفه.",
+                "text2":"بعد تصغِير نافذة المتصفِّح ، سينكَمش العلم البلجيكي إلى منتصف الصفحة ، وسوف يتمركز اللَّون الأحمَر إلى الأسفل ، وسوف تتحول البطاطا المقلية إلى تمثال صغِير"
+            },
+            "air":{
+                "title":"إختيار الرَّحَلات",
+                "text":"كان هذا التمرين تحَدٍّ جيِّد ، حيث كان تحديد أسعار التذاكر يعتمد على التواريخ. تَحدَّد سعر البداية في 1000 يورو ، ينخفض السعر بنسبة 1 ٪ كل يوم بعد اليوم الحالي. وعند كل تذكرة يتِم شراؤها ، يجب أن ينخفض السعر الأولي بنسبة 10٪ ، ومع ذلك سيتعين على آخر مُسَافِرَيْن دفع ضعف السعر الأولي بعد الخصومات. أما إذا كان تاريخ السفر المُختار هو التاريخ الحالي ، فسيكون السعر 1000 يورو دون أي تخفيضات أو خصومات . وإذا كان السعر الأولي بعد الخصم اليومي 1٪ سينزل تحت مستوى 100 يورو ، فسيكون هناك 100 يورو كحد أدنى للتذكرة. مع العلم أن التذاكر المتاحة هي 10 وأن على المسافرين عَدَم تخطي هذا الحد"
+            },
+            "cvBtn":"تحميل السيرة الذاتية"
+            
+        },
+        "resume":"eng",
+        "contact":{
+            "addressTag":"عنوان",
+             "emailTag":"البريد الإلكتروني",
+             "gsm":"المحمول"
+        }
+    
+             
     }
 }
 }

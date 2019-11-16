@@ -17,7 +17,7 @@ const Cv = ({ href, target,cvBtn }) => {
           className="btn-header text-white"
           target={target}
         >
-          {" "}
+        
           {cvBtn}
         </a>
       </div>

@@ -147,9 +147,7 @@ body {
   background-attachment: scroll;
   background-size: cover;
 }
-#gitContainer{
-  margin-bottom: 5rem!important;
-}
+
 .masthead h1 {
   font-family: "Varela Round";
   font-size: 2rem;
@@ -265,7 +263,7 @@ body {
 }
 #avatar {
   color: #8d8d8d;
-  text-align: left;
+  text-align: right;
 }
 #avatar img {
   width: 10rem;

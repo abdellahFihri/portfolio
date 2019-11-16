@@ -5,14 +5,15 @@ import Header from './Components/Header';
 import About from './Components/About';
 import Projects from './Components/Projects';
 import Contactcontainer from './Components/Contactcontainer';
-
 import Contact from './Components/Contact';
- import resumeEng from './documents/AbdellahFihriCVTRY.pdf';
+import resumeEng from './documents/AbdellahFihriCVTRY.pdf';
  import resumeNl from './documents/AbdellahFihriCV.pdf';
  import resumeFr from './documents/AbdellahFihriCVFR.pdf';
 import avatar from './img/myAvatar.jpg';
 import Cv from './Components/Cv';
-import './App.css';
+
+ import './App.css';
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 import lang from './lang.json'
 
@@ -39,20 +40,23 @@ const handleChangeLanguages=()=>{
 }
 console.log('resume in json ')
 let resume
+
 switch(language.resume){
   case "fr":
     resume=resumeFr
+     
   break;
   case "nl":
     resume=resumeNl
-  break;
+     break;
  case "eng":
    resume=resumeEng
-   break;
+     break;
   default:
     return resume
 
 }
+
 
 console.log('resume',resume)
 
@@ -63,12 +67,12 @@ console.log('resume',resume)
   
 
   const{nav,header,about,projects,contact,salutation}=language
-  const{morning,noon,afterNoon,evening,night}=salutation
+  const{morning,noon,evening,night}=salutation
   
   let time=new Date ();
   let hour=time.getHours();
   let greeting='';
- hour<12?greeting=morning:hour<15?greeting=noon:hour<18?greeting=afterNoon:hour<22?greeting=evening:greeting=night
+ hour<12?greeting=morning:hour<15?greeting=noon:hour<18?greeting=noon:hour<22?greeting=evening:greeting=night
  
   let activeLanguage=activeLn;
   console.log( 'consl in app',activeLanguage)
@@ -76,7 +80,8 @@ console.log('resume',resume)
  
     <div className="App">
       <Example  changeLanguage={handleChangeLanguages}
-      // main={nav.main}
+      name={nav.name}
+       cv={nav.cv}
       about={nav.about}
       projects={nav.projects}
       contact={nav.contact}
@@ -135,7 +140,7 @@ console.log('resume',resume)
       infoText={<a href="http://maps.google.com/maps?q=47A+Nijverheidstraat,+8400,+Oostende">
        <b> Abdellah Fihri</b> <br/>
         Nijverheidstraat 47A <br/>
-        8400 {about.living}</a> }
+        8400 Oostende</a> }
       />
        <Contact
        classname="col-md-4 mb-3 mb-md-0"
@@ -148,7 +153,7 @@ console.log('resume',resume)
       infoText={<a href="tel:+32495701222">0495 701 222</a>}
        style={{marginBottom:"5px;"}}/>
        </Contactcontainer>
-       <div className="row mr-0 ml-1 mb-5">
+       <div id="gitContainer" className="row mr-0 ml-1 mb-5">
        <Contact
        classname="col-md-6"
        typeInfo={<i data-aos="fade-right" data-aos-duration="2000" className="fa fa-github" style={{height:"1rem",
@@ -156,6 +161,7 @@ console.log('resume',resume)
         infoText={<a href="https://github.com/abdellahFihri" rel="noopener noreferrer" target="_blank">https://github.com/abdellahFihri</a>}
         />
         <Contact
+        
         classname="col-md-6 "
         typeInfo={<i data-aos="fade-left"  data-aos-duration="2000" className="fa fa-linkedin" style={{height:"1rem",
         fontSize:" 3.75em"}}/>}

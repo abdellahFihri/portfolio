@@ -24,14 +24,14 @@ class Nav extends Component {
    }
    
     render() {
-    const {changeLanguage,about,projects,contact}=this.props;
+    const {changeLanguage,about,projects,contact,cv,name}=this.props;
     
      const property=this.state.style;
         return ( 
             <Navbar  style={{display:property}} className="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
             {/* <a href="#Header"> <img id="icon"  src={favicon} alt="icon"/></a> */}
             <div className="container">
-              <a id="myname"  className="navbar-brand js-scroll-trigger" href="Header">Abdellah Fihri</a>
+        <a id="myname"  className="navbar-brand js-scroll-trigger" href="Header">{name}</a>
             
               <div className=" navbar-collapse" id="navbarResponsive">
                 <ul className="navbar-nav ml-auto">
@@ -43,7 +43,7 @@ class Nav extends Component {
                     <a className="nav-link js-scroll-trigger" href="#projects">{projects}</a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link js-scroll-trigger" href="#cv-btn">CV</a>
+                    <a className="nav-link js-scroll-trigger" href="#cv-btn">{cv}</a>
                   </li>
                   <li className="nav-item">
                     <a className="nav-link js-scroll-trigger" href="#Contacts">{contact}</a>
@@ -53,7 +53,8 @@ class Nav extends Component {
               <select id="langSelect" onChange={()=>changeLanguage()}>
   <option value="eng">ENG</option>
   <option value="nl">NL</option>
-  <option value="fr">FR </option>
+  <option value="fr">FR</option>
+  <option value="ar">العربية</option>
 </select>
             </div>
           </Navbar>

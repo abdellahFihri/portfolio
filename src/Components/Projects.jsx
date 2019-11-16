@@ -22,7 +22,7 @@ class Projects extends Component {
                         <img id="project "className="img-fluid mb-3 mb-lg-0" src={ijs} alt="img"/></a>
                          </div>
                    <div className="col-xl-4 col-lg-5">
-                         <div id="iceDiscription"className="featured-text text-center text-lg-left">
+                         <div   id="iceDiscription"className="featured-text text-center text-lg-left">
                         <h4  data-aos="zoom-in"  data-aos-duration="3000"> {titleIce}</h4>
                        {textIce}
                      </div>
