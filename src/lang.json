@@ -24,7 +24,7 @@
         "name":"Name: Abdellah Fihri",
         "birth":"Birth: 22/11/1984",
         "living":"City: Ostend",
-        "aboutText":"IT has always been my biggest interest. From an early age,\n I was involved with repairing computers, immersing myself in the world of internet of things and starting programming small web applications. When I came into contact with programming, I realized that I wanted to develop myself further in . That is why I chose to follow the front-end developer course at INTEC BRUSSELS. I am currently strengthening my knowledge of Javascript, step by step I want to learn more languages."
+        "aboutText":"IT has always been my biggest interest. From an early age,\n I was involved with repairing computers, immersing myself in the world of internet of things and starting programming small web applications. When I came into contact with programming, i realized that I wanted to develop myself further in . That is why I chose to follow the front-end developer course at INTEC BRUSSELS. I am currently strengthening my knowledge of Javascript, step by step I want to learn more languages."
 
     },
     "projects":{
@@ -114,7 +114,7 @@
         "main":"Principal",
         "about":"A propos",
         "cv":"CV",
-        "projects":"Traveaux",
+        "projects":"Travaux",
         "contact":"Contact"
     
     },
@@ -132,13 +132,13 @@
         "name":"Nom: Abdellah Fihri",
         "birth":"Naissance: 22/11/1984",
         "living":"Ville: Ostende",
-        "aboutText":"L'informatique a toujours été mon plus grand intérêt. Dès mon plus jeune âge, je réparais des ordinateurs, et je me suis très vite passioné pour le monde de l'IOT et de la programmation de petites applications Web, ce qui m'a fait réalisé que je voulais m'y développer d'avantage et en faire ma profession. C'est pourquoi j'ai choisi de suivre le cours de développeur FRONT-END à INTEC BRUSSELS. Je suis actuellement entrain de renforcer mes connaissances en Javascript ainsi que mes connaissances linguistiques."
+        "aboutText":"L'informatique a toujours été mon plus grand intérêt. Dès mon plus jeune âge, je réparais des ordinateurs, et je me suis très vite passioné pour le monde de l'IOT et de la programmation de petites applications Web, ce qui m'a fait réalisé que je voulais développer d'avantage mes compétances et en faire ma profession. C'est pourquoi j'ai choisi de suivre le cours de développeur FRONT-END à INTEC BRUSSELS. Je suis actuellement entrain de renforcer mes connaissances en Javascript ainsi que mes connaissances linguistiques."
     
     },
     "projects":{
         "icecream":{
             "title":"Le selecteur ice-cream",
-            "text":"Cet exercice de sélection de crème glacée nous a permis de tester notre sens de la logique et des conditions. 1 boule minimum et 3 boules maximum par pot, mais j'ai poussé cet exercice plus loin en ajoutant une deuxième option de pots et fixant son maximum à 4 boules au lieu de 3. Maintenant,  dépendant du pot sélectionné au début de la sélection, la portée maximale varie. apres la validation de la  selection, un pop-up message va apparaitre pour nous donner un aperçu de notre selection , ou  un message d'avertissement en cas de mauvaise sélection."
+            "text":"Cet exercice de sélection de crème glacée nous a permis de tester notre sens de la logique et des conditions. 1 boule minimum et 3 boules maximum par pot, mais j'ai poussé cet exercice plus loin en ajoutant une deuxième option de pots et fixant son maximum à 4 boules au lieu de 3. Maintenant, en fonction du pot choisi au début, la portée maximale varie. apres la validation de la selection, un pop-up message va apparaitre pour nous donner un aperçu de notre selection , ou un message d'avertissement en cas de mauvaise sélection."
         },
         "belgium":{
             "title1":"Drapeau belge",
@@ -187,7 +187,7 @@
             "name":"الإسم: فهري عبدالله",
             "birth":"الإزدياد: 1984/22/11",
             "living":"المدينة: أوستند",
-            "aboutText":" لطالما كانت المعلوميات  دائما اهتمامي الأكبر. منذ سن مبكرة ، شارَكتُ في إصلاح أجهزة الكمبيوتر وغَمْر نفسي في عالم إنترنت الأشياء وبدء برمجة تطبيقات الويب الصغيرة. عندها أدركْتُ أنِّي أريد تطوير نفسي أكثر في هذا المجال. لهذا السبب اختَرتُ متابعة دروس تطوير صفحات الويب  . أقوم حاليًا بتقوية معرفتي ، و أريد أن أتعلم المزيد من اللغات خطوة بخطوة."
+            "aboutText":" لطالما كانت المعلوميات  دائما اهتمامي الأكبر. منذ سن مبكرة ، شارَكتُ في إصلاح أجهزة الكمبيوتر وغَمْر نفسي في عالم إنترنت الأشياء وبدء برمجة تطبيقات الويب الصغيرة. عندها أدركْتُ أنِّي أريد تطوير نفسي أكثر في هذا المجال. لهذا السبب اختَرتُ متابعة دروس تطوير صفحات الويب  . أقوم حاليًا بتقوية معرفتي ، و أريد أن أتعلم المزيد من اللغات ."
         },
         "projects":{
             "icecream":{
@@ -207,7 +207,7 @@
             "cvBtn":"تحميل السيرة الذاتية"
             
         },
-        "resume":"eng",
+        "resume":"ar",
         "contact":{
             "addressTag":"عنوان",
              "emailTag":"البريد الإلكتروني",

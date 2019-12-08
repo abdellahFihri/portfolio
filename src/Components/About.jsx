@@ -1,8 +1,6 @@
-import React, { Component } from "react";
+import React from "react";
 import Aos from "aos";
-class About extends Component {
-  render() {
-    const { salute, avatar, name, birth, city, text } = this.props;
+const About=({ salute, avatar, name, birth, city, text })=>{
     Aos.init();
     return (
       <section id="about" className="about-section text-center">
@@ -42,6 +40,6 @@ class About extends Component {
       </section>
     );
   }
-}
+
 
 export default About;

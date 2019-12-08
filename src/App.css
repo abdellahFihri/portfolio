@@ -1,6 +1,8 @@
 html {
   scroll-behavior: smooth;
+ 
 }
+@import url(https://fonts.googleapis.com/earlyaccess/amiri.css);
 body {
   margin: 0;
 }
@@ -134,6 +136,8 @@ body {
     border-bottom: 0.25rem solid #64a19d;
   }
 }
+
+@import url(https://fonts.googleapis.com/earlyaccess/amiri.css);
 
 .masthead {
   position: relative;
@@ -444,7 +448,7 @@ embed {
 }
 
 body {
-  font-family: "Nunito";
+  font-family: 'Amiri', serif;
   letter-spacing: 0.0625em;
 }
 

@@ -2,7 +2,7 @@
 import React from "react";
 import Aos from "aos";
 
-const Cv = ({ href, target,cvBtn }) => {
+const Cv = ({ href, target, cvBtn }) => {
   Aos.init();
   return (
     <div className="container">
@@ -17,7 +17,6 @@ const Cv = ({ href, target,cvBtn }) => {
           className="btn-header text-white"
           target={target}
         >
-        
           {cvBtn}
         </a>
       </div>
