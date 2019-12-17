@@ -6,9 +6,9 @@ import About from "./Components/About";
 import Projects from "./Components/Projects";
 import Contactcontainer from "./Components/Contactcontainer";
 import Contact from "./Components/Contact";
-import resumeEng from "./documents/AbdellahFihriCVTRY.pdf";
+import resumeEng from "./documents/AbdellahFihriEngCV.pdf";
 import resumeNl from "./documents/AbdellahFihriCV.pdf";
-import resumeFr from "./documents/AbdellahFihriCVFR.pdf";
+import resumeFr from "./documents/AbdellahFihriFrCV.pdf";
 import avatar from "./img/myAvatar.jpg";
 import Cv from "./Components/Cv";
 
@@ -119,6 +119,7 @@ function App() {
         }
       />
       <Projects
+      tube={projects.tube}
         style={{ styleAr }}
         titleIce={projects.icecream.title}
         textIce={

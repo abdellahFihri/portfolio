@@ -42,6 +42,12 @@
             "title":"The air selector",
             "text":"This exercise was quite challenging,working with dates to determine the prices on tickets was interessting. Setting the start price as 1000€, The price decreases by 1% each day ahead of the actual day. By each purchased ticket the initial price must decrease by 10%, And yet the last 2 passengers will have to pay double of the initial price after the discounts.Yet if the chosen travel date is the actual date, the price will be 1000€ without any discounts nor discounts after a ticket purchase.And if the initial price after daily discount of 1 % will go bellow the 100€, then there will be a limit of 100€ as minimum per ticket. Knowing that the available tickets are 10 and the passengers must not exeed this limit."
         },
+        "tube":{
+            "title1":"Mini Youtube",
+            "title2":"Android App mini youtube",
+            "text1":"This is a mini YouTube, there is a search input field that makes a query request to YouTube API, gets a response and renders it as a list of items,taking the first item in the list to display as default.",
+            "text2":"I made from this react app an android version of it, wrapping it up using CORDOVA and GRADLE to generate an APK file."
+        },
         "cvBtn":"DOWNLOAD CV"
         
     },
@@ -95,6 +101,12 @@
     "air":{
         "title":"Air selector",
         "text":"Deze oefening was behoorlijk uitdagend, het was interessant om met datums te werken om de prijzenvan billeten te bepalen. De startprijs instellen op 1000 €, De prijs daalt elke dag met 1% na de datum van vandaag. Bij elk gekocht ticket moet de oorspronkelijke prijs met 10% dalen, en toch moeten de laatste 2 passagiers na de kortingen het dubbele van de oorspronkelijke prijs betalen. Als de gekozen reisdatum vandaag is, de zal prijs 1000 € zijn zonder kortingen of kortingen na aankoop van een ticket.En als de initiële prijs na dagelijkse korting van 1% onder de € 100 zal blijven, dan is er een limiet van € 100 als minimum per ticket. Wetende dat de beschikbare tickets 10 zijn en de passagiers  mogen deze limiet niet overschrijden."
+    },
+    "tube":{
+        "title1":"Mini Youtube",
+        "title2":"Android App mini youtube",
+        "text1":"Dit is een kleine versie van YouTube,dankzij de zoekveld kunnen we een API aanvraag indienen naar YouTube database, indien we een response terug krijgen zorgt de app een list van maken en neemt het eerste resultaat als hoofdvideo",
+        "text2":"Ik heb deze react-app een Android-versie van gemaakt, ik heb CORDOVA en GRADLE gebruikt om een APK-bestand te maken."
     },
     "cvBtn":"CV DOWNLOADEN"
     
@@ -150,6 +162,12 @@
             "title":"Air selector",
             "text":"Cet exercice était assez éprouvant, nous devions travailler avec les dates pour déterminer les prix des billets. Fixant le prix de départ à 1000 €, le prix diminue de 1% chaque jour avant le jour actuel. À chaque billet acheté, le prix initial doit diminuer de 10%. Cependant, les deux derniers passagers devront payer le double du prix initial après les remises. De plus, si la date de voyage choisie est la date actuelle, le prix sera de 1000 € sans aucune réduction. Et si le prix initial après la réduction quotidienne de 1% est inférieur à 100 €, il y aura un prix minimum de 100 € par billet. Sachant qu'il y a 10 billets disponibles et que les passagers ne doivent pas dépasser cette limite."
         },
+        "tube":{
+            "title1":"Mini Youtube",
+            "title2":"Android App mini youtube",
+            "text1":"Ceci est une petite version de YouTube, grâce au champ de recherche, nous pouvons soumettre une demande d'API à la base de données YouTube, si nous obtenons une réponse, l'application fera une liste et prendra le premier résultat comme vidéo principale",
+            "text2":"J'ai fais de cette application React une version Android, en utilisant CORDOVA et GRADLE pour générer un fichier APK."
+        },
         "cvBtn":"TELECHARGER LE CV"
         
     },
@@ -203,6 +221,12 @@
             "air":{
                 "title":"إختيار الرَّحَلات",
                 "text":"كان هذا التمرين تحَدٍّ جيِّد ، حيث كان تحديد أسعار التذاكر يعتمد على التواريخ. تَحدَّد سعر البداية في 1000 يورو ، ينخفض السعر بنسبة 1 ٪ كل يوم بعد اليوم الحالي. وعند كل تذكرة يتِم شراؤها ، يجب أن ينخفض السعر الأولي بنسبة 10٪ ، ومع ذلك سيتعين على آخر مُسَافِرَيْن دفع ضعف السعر الأولي بعد الخصومات. أما إذا كان تاريخ السفر المُختار هو التاريخ الحالي ، فسيكون السعر 1000 يورو دون أي تخفيضات أو خصومات . وإذا كان السعر الأولي بعد الخصم اليومي 1٪ سينزل تحت مستوى 100 يورو ، فسيكون هناك 100 يورو كحد أدنى للتذكرة. مع العلم أن التذاكر المتاحة هي 10 وأن على المسافرين عَدَم تخطي هذا الحد"
+            },
+            "tube":{
+                "title1":"يوتيوب مصغر",
+                "title2":"تطبيق أندرويد ميني يوتيوب",
+                "text1":"هذا موقع يوتوب صغير ، يوجد حقل إدخال بحث يقدم طلب استعلام إلى واجهة برمجة تطبيقات ، ويحصل على استجابة يقدمها كقائمة من العناصر ، مع أخذ العنصر الأول في القائمة لعرضه.",
+                "text2":"لقد صنعت من هذا تطبيق  نسخة أندرويد، باستعمال كوردوڢا ."
             },
             "cvBtn":"تحميل السيرة الذاتية"
             

@@ -4,6 +4,10 @@ import belgie1 from "../img/belgie1.png";
 import belgie2 from "../img/belgie2.png";
 import airSelector from "../img/airSelector.png";
 import ijs from "../img/ijs-picture.png";
+import mini_tube from '../img/mini_youtube.png'
+import miniTubeVideo from '../Components/videos/mini_youtube.mp4'
+import DoubleContainer from './projects/doubbleContainerProject'
+import Video from './projects/video'
 
 const Projects=( {
   textIce,
@@ -14,7 +18,8 @@ const Projects=( {
   belTitle2,
   titleIce,
   titleAir,
-  style
+  style,
+  tube:{title1,title2,text1,text2}
 })=> {
   
     Aos.init();
@@ -55,71 +60,14 @@ const Projects=( {
             </div>
           </div>
 
-          <div className="row justify-content-center no-gutters mb-5 mb-lg-0">
-            <div className="col-lg-6">
-              <a
-                href="https://abdellahfihri.github.io/belgium"
-                rel="noopener noreferrer"
-                target="_blank"
-              >
-                <img className="img-fluid" src={belgie1} alt="img" />
-              </a>
-            </div>
-            <div className="col-lg-6">
-              <div className="bg-black text-center h-100 project">
-                <div className="d-flex h-100">
-                  <div className="project-text w-100 my-auto text-center text-lg-left">
-                    <h4
-                      data-aos="zoom-in"
-                      data-aos-duration="3000"
-                      className="text-white"
-                    >
-                      {belTitle1}
-                    </h4>
-                    {textBel1}
-                    <hr
-                      data-aos="fade-right"
-                      data-aos-duration="3000"
-                      className="d-none d-lg-block mb-0 ml-0"
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div className="row justify-content-center no-gutters">
-            <div className="col-lg-6">
-              <a
-                href="https://abdellahfihri.github.io/belgium"
-                rel="noopener noreferrer"
-                target="_blank"
-              >
-                <img className="img-fluid" src={belgie2} alt="img" />
-              </a>
-            </div>
-            <div className="col-lg-6 order-lg-first">
-              <div className="bg-black text-center h-100 project">
-                <div className="d-flex h-100">
-                  <div className="project-text w-100 my-auto text-center text-lg-right">
-                    <h4
-                      data-aos="zoom-in"
-                      data-aos-duration="3000"
-                      className="text-white"
-                    >
-                      {belTitle2}
-                    </h4>
-                    {textBel2}
-                    <hr
-                      data-aos="fade-left"
-                      data-aos-duration="3000"
-                      className="d-none d-lg-block mb-0 mr-0"
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+         <DoubleContainer 
+         title1={belTitle1} 
+         title2={belTitle2}
+         text1={textBel1}
+         text2={textBel2}
+         pic1={belgie1}
+         pic2={belgie2}
+         href="https://abdellahfihri.github.io/belgium"/>
 
           <div className="row align-items-center no-gutters mt-5 mb-4 mb-lg-5">
             <div className="col-xl-4 col-lg-5">
@@ -148,6 +96,36 @@ const Projects=( {
               </a>
             </div>
           </div>
+         <DoubleContainer
+         pic1={ mini_tube}
+         title1={title1}
+         title2={title2}
+         text1={
+           <p
+          
+           data-aos="fade-up"
+           data-aos-duration="3000"
+           className="mb-0 text-white-50"
+           >
+           {text1}
+           </p>}
+         text2={
+          <p
+          
+          data-aos="fade-up"
+          data-aos-duration="3000"
+          className="mb-0 text-white-50"
+          >
+          {text2}
+          </p>
+         }
+         
+         href="https://abdellahfihri.github.io/react.video.app/">
+         <Video videoSrc={miniTubeVideo}/>
+         </DoubleContainer>
+         
+         
+         
         </div>
       </section>
     );
