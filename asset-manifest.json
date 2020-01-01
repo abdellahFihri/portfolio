@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.d64093b9.chunk.css",
-    "main.js": "/portfolio/static/js/main.d9ee2a71.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.d9ee2a71.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.43341e61.chunk.css",
+    "main.js": "/portfolio/static/js/main.30e9b481.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.30e9b481.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.40305da2.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.40305da2.js.map",
     "static/css/2.b0bb7f2c.chunk.css": "/portfolio/static/css/2.b0bb7f2c.chunk.css",
-    "static/js/2.5b0b7d5e.chunk.js": "/portfolio/static/js/2.5b0b7d5e.chunk.js",
-    "static/js/2.5b0b7d5e.chunk.js.map": "/portfolio/static/js/2.5b0b7d5e.chunk.js.map",
+    "static/js/2.bc870deb.chunk.js": "/portfolio/static/js/2.bc870deb.chunk.js",
+    "static/js/2.bc870deb.chunk.js.map": "/portfolio/static/js/2.bc870deb.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.2614ccff1a947b8e3f5a0faa9dc3ffb5.js": "/portfolio/precache-manifest.2614ccff1a947b8e3f5a0faa9dc3ffb5.js",
+    "precache-manifest.52b7845bd25288d0583d163b378e1ccf.js": "/portfolio/precache-manifest.52b7845bd25288d0583d163b378e1ccf.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/2.b0bb7f2c.chunk.css.map": "/portfolio/static/css/2.b0bb7f2c.chunk.css.map",
-    "static/css/main.d64093b9.chunk.css.map": "/portfolio/static/css/main.d64093b9.chunk.css.map",
-    "static/js/2.5b0b7d5e.chunk.js.LICENSE": "/portfolio/static/js/2.5b0b7d5e.chunk.js.LICENSE",
+    "static/css/main.43341e61.chunk.css.map": "/portfolio/static/css/main.43341e61.chunk.css.map",
+    "static/js/2.bc870deb.chunk.js.LICENSE": "/portfolio/static/js/2.bc870deb.chunk.js.LICENSE",
     "static/media/AbdellahFihriCV.pdf": "/portfolio/static/media/AbdellahFihriCV.543613dd.pdf",
     "static/media/AbdellahFihriEngCV.pdf": "/portfolio/static/media/AbdellahFihriEngCV.12ddb8eb.pdf",
     "static/media/AbdellahFihriFrCV.pdf": "/portfolio/static/media/AbdellahFihriFrCV.35b6b257.pdf",
-    "static/media/Christmastree.gif": "/portfolio/static/media/Christmastree.393f8c63.gif",
+    "static/media/Christmastree.png": "/portfolio/static/media/Christmastree.47dccef2.png",
     "static/media/airSelector.png": "/portfolio/static/media/airSelector.1b236295.png",
     "static/media/belgie1.png": "/portfolio/static/media/belgie1.19d61ca9.png",
     "static/media/belgie2.png": "/portfolio/static/media/belgie2.ee595411.png",
@@ -30,8 +30,8 @@
   "entrypoints": [
     "static/js/runtime-main.40305da2.js",
     "static/css/2.b0bb7f2c.chunk.css",
-    "static/js/2.5b0b7d5e.chunk.js",
-    "static/css/main.d64093b9.chunk.css",
-    "static/js/main.d9ee2a71.chunk.js"
+    "static/js/2.bc870deb.chunk.js",
+    "static/css/main.43341e61.chunk.css",
+    "static/js/main.30e9b481.chunk.js"
   ]
 }

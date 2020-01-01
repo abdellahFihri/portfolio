@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9d0ec6b6f359c56fd80b74aeb4961d6f",
+    "revision": "d723f930601d4a7b226f5f4aee195bc7",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "f10f91b5b8a833ac130f",
+    "revision": "28710741229cfcd7d0ae",
     "url": "/portfolio/static/css/2.b0bb7f2c.chunk.css"
   },
   {
-    "revision": "587d04b5a948bd62b5e9",
-    "url": "/portfolio/static/css/main.d64093b9.chunk.css"
+    "revision": "046f5b7f1c207b0402b9",
+    "url": "/portfolio/static/css/main.43341e61.chunk.css"
   },
   {
-    "revision": "f10f91b5b8a833ac130f",
-    "url": "/portfolio/static/js/2.5b0b7d5e.chunk.js"
+    "revision": "28710741229cfcd7d0ae",
+    "url": "/portfolio/static/js/2.bc870deb.chunk.js"
   },
   {
-    "revision": "b16c193132695216b3273f2acb3f96c7",
-    "url": "/portfolio/static/js/2.5b0b7d5e.chunk.js.LICENSE"
+    "revision": "21a2a98d9df7cec5f3e2510ba837dd85",
+    "url": "/portfolio/static/js/2.bc870deb.chunk.js.LICENSE"
   },
   {
-    "revision": "587d04b5a948bd62b5e9",
-    "url": "/portfolio/static/js/main.d9ee2a71.chunk.js"
+    "revision": "046f5b7f1c207b0402b9",
+    "url": "/portfolio/static/js/main.30e9b481.chunk.js"
   },
   {
     "revision": "bae058d81d636b46f71d",
@@ -40,8 +40,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/AbdellahFihriFrCV.35b6b257.pdf"
   },
   {
-    "revision": "393f8c63516bd32979041939b2f7f615",
-    "url": "/portfolio/static/media/Christmastree.393f8c63.gif"
+    "revision": "47dccef220cc6f3734f5dc385011f9d0",
+    "url": "/portfolio/static/media/Christmastree.47dccef2.png"
   },
   {
     "revision": "1b236295ab4afcd7a67e362d2e886060",
