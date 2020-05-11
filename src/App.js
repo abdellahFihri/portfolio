@@ -3,12 +3,13 @@ import React, { useState } from "react";
 import Example from "./Components/Nav";
 import Header from "./Components/Header";
 import About from "./Components/About";
+// import Snow from 'react-snow-effect'
 import Projects from "./Components/Projects";
 import Contactcontainer from "./Components/Contactcontainer";
 import Contact from "./Components/Contact";
-import resumeEng from "./documents/AbdellahFihriEngCV.pdf";
-import resumeNl from "./documents/AbdellahFihriCV.pdf";
-import resumeFr from "./documents/AbdellahFihriFrCV.pdf";
+import resumeEng from "./documents/abdellahFihriCV.pdf";
+import resumeNl from "./documents/abdellahFihriCV.pdf";
+import resumeFr from "./documents/abdellahFihriCV.pdf";
 import avatar from "./img/myAvatar.jpg";
 import Cv from "./Components/Cv";
 
@@ -37,7 +38,7 @@ function App() {
   // console.log("resume in json ");
   let resume;
   let styleAr = "";
-  let aramir = { fontFamily: "Amiri" };
+  // let aramir = { fontFamily: "Amiri" };
 
   switch (language.resume) {
     case "fr":
@@ -50,11 +51,11 @@ function App() {
     case "eng":
       resume = resumeEng;
       break;
-    case "ar":
-      resume = resumeEng;
+    // case "ar":
+    //   resume = resumeEng;
 
-      styleAr = aramir;
-      break;
+    //   styleAr = aramir;
+    //   break;
     default:
       return resume;
   }
@@ -85,6 +86,8 @@ function App() {
   // console.log("consl in app", activeLanguage);
   return (
     <div className="App">
+      {/* <Snow/> */}
+     {/* <XmassTree/> */}
       <Example
         changeLanguage={handleChangeLanguages}
         style={{ styleAr }}
@@ -120,6 +123,7 @@ function App() {
       />
       <Projects
       tube={projects.tube}
+      covid={projects.covid}
         style={{ styleAr }}
         titleIce={projects.icecream.title}
         textIce={
@@ -210,10 +214,11 @@ function App() {
               className="fa fa-github"
               style={{ height: "1rem", fontSize: " 3.75em" }}
               aria-hidden="true"
-            />
-          }
-          infoText={
-            <a
+              />
+              
+            }
+            infoText={
+              <a
               href="https://github.com/abdellahFihri"
               rel="noopener noreferrer"
               target="_blank"

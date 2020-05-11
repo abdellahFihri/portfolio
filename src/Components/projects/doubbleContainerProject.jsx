@@ -4,8 +4,8 @@ import React from 'react';
 const DoubleContainer=({children,title1,text1,title2,text2,pic1,pic2,href})=>{
     return(
     <div className="container">
-    <div className="row justify-content-center no-gutters mb-5 mb-lg-0">
-    <div className="col-lg-6">
+    <div className="row  justify-content-center no-gutters mb-5 mb-lg-0">
+    <div className="bg-black  align-items-center col-lg-6">
       <a
         href={href}
         rel="noopener noreferrer"
@@ -37,7 +37,7 @@ const DoubleContainer=({children,title1,text1,title2,text2,pic1,pic2,href})=>{
     </div>
   </div>
 
-  <div className="row justify-content-center no-gutters">
+  <div className="row bg-black justify-content-center no-gutters mb-5">
       {
           pic2 ?
         <div className="col-lg-6">

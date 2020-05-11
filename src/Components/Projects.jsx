@@ -1,13 +1,16 @@
 import React from "react";
 import Aos from "aos";
-import belgie1 from "../img/belgie1.png";
-import belgie2 from "../img/belgie2.png";
+import belgie1 from "../img/webshop.png";
+import covid1 from '../img/desktop.png';
+import covid2 from '../img/mobile.png'
+import belgie2 from "../img/webshop2.png";
 import airSelector from "../img/airSelector.png";
-import ijs from "../img/ijs-picture.png";
-import mini_tube from '../img/mini_youtube.png'
-import miniTubeVideo from '../Components/videos/mini_youtube.mp4'
-import DoubleContainer from './projects/doubbleContainerProject'
-import Video from './projects/video'
+import ijs from "../img/usersTable.png";
+import mini_tube from '../img/mini_youtube.png';
+import miniTubeVideo from '../Components/videos/mini_youtube.mp4';
+import covidMobile from '../Components/videos/covid.mp4';
+import DoubleContainer from './projects/doubbleContainerProject';
+import Video from './projects/video';
 
 const Projects=( {
   textIce,
@@ -19,7 +22,8 @@ const Projects=( {
   titleIce,
   titleAir,
   style,
-  tube:{title1,title2,text1,text2}
+  tube:{title1,title2,text1,text2},
+  covid
 })=> {
   
     Aos.init();
@@ -31,7 +35,7 @@ const Projects=( {
         className="projects-section bg-white"
       >
         <div className="container">
-          <div className="row align-items-center no-gutters mb-4 mb-lg-5">
+          {/* <div className="row align-items-center no-gutters mb-4 mb-lg-5">
             <div className="col-xl-8 col-lg-7">
               <a
                 href="https://abdellahfihri.github.io/ijs/"
@@ -58,7 +62,7 @@ const Projects=( {
                 {textIce}
               </div>
             </div>
-          </div>
+          </div> */}
 
          <DoubleContainer 
          title1={belTitle1} 
@@ -67,7 +71,8 @@ const Projects=( {
          text2={textBel2}
          pic1={belgie1}
          pic2={belgie2}
-         href="https://abdellahfihri.github.io/belgium"/>
+         href="https://fihri-e-shop.herokuapp.com/shop"
+         />
 
           <div className="row align-items-center no-gutters mt-5 mb-4 mb-lg-5">
             <div className="col-xl-4 col-lg-5">
@@ -76,21 +81,21 @@ const Projects=( {
                 className="featured-text text-center text-lg-left"
               >
                 <h4 data-aos="zoom-in" data-aos-duration="3000">
-                  {titleAir}
+                  {titleIce}
                 </h4>
-                {textAir}
+                {textIce}
               </div>
             </div>
             <div className="col-xl-8 col-lg-7">
               <a
-                href="https://abdellahfihri.github.io/AirSelector/"
+                href="https://tui.abdellahfihri.now.sh/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <img
                   id="project "
                   className="img-fluid mb-3 mb-lg-0"
-                  src={airSelector}
+                  src={ijs}
                   alt="img"
                 />
               </a>
@@ -120,9 +125,35 @@ const Projects=( {
           </p>
          }
          
-         href="https://abdellahfihri.github.io/react.video.app/">
+         href="https://abdellahfihri.github.io/reco-videos/">
          <Video videoSrc={miniTubeVideo}/>
          </DoubleContainer>
+         <DoubleContainer
+         pic1={covid1}
+        //  pic2={covid2}
+         title1={covid.title1}
+         title2={covid.title2}
+         text1={<p
+          
+          data-aos="fade-up"
+          data-aos-duration="3000"
+          className="mb-0 text-white-50"
+          >
+          {covid.text1}
+          </p>}
+         text2={<p
+          
+          data-aos="fade-up"
+          data-aos-duration="3000"
+          className="mb-0 text-white-50"
+          >
+          {covid.text2}
+          </p>}
+          href="https://covid-19-stats.abdellahfihri.now.sh/"
+         >
+            
+         <Video videoSrc={covidMobile}/>
+           </DoubleContainer>
          
          
          

@@ -2,6 +2,14 @@ html {
   scroll-behavior: smooth;
  
 }
+#Three{
+  position:"fixed";
+      
+      top:"30px" ;
+      left:"0px";
+      z-index:5;
+      width:"100px";
+}
 @import url(https://fonts.googleapis.com/earlyaccess/amiri.css);
 body {
   margin: 0;
@@ -80,6 +88,9 @@ body {
 }
 
 @media (min-width: 992px) {
+  .img-fluid{
+    height: 280px!important;
+  }
   #mainNav {
     height: 40px;
     padding-top: 0;
@@ -327,7 +338,7 @@ body {
   border-right: none;
   border-bottom: none;
   border-top: 0.05rem solid rgb(113, 60, 236);
-
+min-height: 300px;
   border-radius: 40px 0 0 0;
 }
 #iceDiscription {

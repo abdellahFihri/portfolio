@@ -1,0 +1,15 @@
+.tree img{
+
+    position:absolute fixed;
+    z-index: 5;
+    width: 80px;
+    margin-top: 30px;
+}
+@media only screen and (max-width: 990px){
+    .tree img{
+        width:80px;
+        margin-top: 8px;
+        margin-right: -3px;
+        margin-left: -10px;;
+    }
+}

@@ -1,23 +1,26 @@
 import React from "react";
 import Aos from "aos";
+import styles from './about.module.scss'
 const About=({ salute, avatar, name, birth, city, text })=>{
     Aos.init();
     return (
       <section id="about" className="about-section text-center">
-        <div className="container">
-          <div className="row">
-            <div id="avatar" className="col-md-4">
+        <div className={styles.container}>
+          <div className={styles.row}>
+            <div className={styles.avatarcontainer}>
               <img
                 data-aos="fade-right"
                 data-aos-duration="3000"
                 src={avatar}
                 alt="avatar"
               />
+              <div>
               {name} <br />
               {birth} <br />
               {city} <br />
+              </div>
             </div>
-            <div className="col-lg 8">
+            <div className={styles.text} >
               <h2
                 id="salute"
                 data-aos="zoom-in"

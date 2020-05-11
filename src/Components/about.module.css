@@ -1,0 +1,22 @@
+.row {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.row .avatarcontainer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  color: #a09c9c;
+  font-style: normal;
+  width: 40%;
+}
+.row .avatarcontainer img {
+  width: 20%;
+  border-radius: 5px;
+}
+.row .text {
+  width: 60%;
+}

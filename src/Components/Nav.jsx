@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+// import XmassTree from './xmass-shit/xmass'
 import Navbar from "react-bootstrap/Navbar";
 // import favicon from '../img/favicon.png'
 
@@ -28,10 +29,12 @@ class Nav extends Component {
     const property = this.state.style;
     return (
       <Navbar
+      
         style={{ display: property }}
         className="navbar navbar-expand-lg navbar-light fixed-top"
         id="mainNav"
       >
+        {/* <XmassTree/> */}
         {/* <a href="#Header"> <img id="icon"  src={favicon} alt="icon"/></a> */}
         <div className="container">
           <a
@@ -70,7 +73,7 @@ class Nav extends Component {
             <option value="eng">ENG</option>
             <option value="nl">NL</option>
             <option value="fr">FR</option>
-            <option value="ar">العربية</option>
+            
           </select>
         </div>
       </Navbar>
