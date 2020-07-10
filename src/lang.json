@@ -30,12 +30,12 @@
     "projects":{
         "icecream":{
             "title":"Users Data Tables",
-            "text":" This is a web app to visualize the signed up users via email authentification or Google authentification, this web app was made with React js, redux, firebase for signin-in and signin-up, and Material-UI."
+            "text":" This is a web app to visualize the signed up users via email authentification or Google authentification, this web app was made with React js, redux, firebase for signin-in and signin-up, and Material-UI. Only signed in users can access the users table, and only one user with administrator rights can access an other table with CRUD operations"
         },
         "belgium":{
             "title1":"Webshop",
             "title2":"Stripe payments",
-            "text1":"This Webshop interface is made with react js, redux,firebase and some use of other javascript libraries, we can sign up  with email and also we can be use google sign-in.",
+            "text1":"This Webshop interface is made with react js, redux,firebase and some use of other javascript libraries, we can sign up  with email and also we can use google sign-in.",
             "text2":"I also integrated Stripe payments in the checkout section."
         },
         "air":{
@@ -51,7 +51,7 @@
         "covid":{
             "title1":"COVID-19 stats app",
             "title2":"Mobile view",
-            "text1":"This app was build from scratch using React js,Apex charts and some other tools, we can visualize data for each country thanks to the countries summary, on a country selection we get  a death/recovery ratio and the evolution of the virus in the selected country.",
+            "text1":"This app was build from scratch using typescript ReactTs,Apex charts and some other tools, we can visualize data for each country thanks to the countries summary, on a country selection we get  a death/recovery ratio and the evolution of the virus in the selected country.",
             "text2":"Not forgetting about the mobile view with responsive charts optimized for mobile"
         },
         "cvBtn":"DOWNLOAD CV"
@@ -117,7 +117,7 @@
     "covid":{
         "title1":"COVID-19 stats app",
         "title2":"Mobile view",
-        "text1":"Deze app is gemaakt met React js, Apex-charts en enkele andere tools, we kunnen gegevens voor elk land visualiseren dankzij de landenoverzicht, bij een landselectie krijgen we een dood/herstel verhouding en de evolutie van het virus in de geselecteerde land.",
+        "text1":"Deze app is gemaakt met typescript, ReactTs, Apex-charts en enkele andere tools, we kunnen gegevens voor elk land visualiseren dankzij de landenoverzicht, bij een landselectie krijgen we een dood/herstel verhouding en de evolutie van het virus in de geselecteerde land.",
         "text2":"En niet te vergeten de mobiele weergave met responsive charts die geoptimaliseerd zijn voor mobiel."
     },
     "cvBtn":"CV DOWNLOADEN"
@@ -183,7 +183,7 @@
         "covid":{
             "title1":"COVID-19 stats app",
             "title2":"Mobile view",
-            "text1":"Cette application est réalisée avec React js, des graphiques Apex et quelques autres outils, nous pouvons visualiser les données de chaque pays grâce à l'aperçu des pays, a une sélection de pays nous obtenons un taux de mortalité /retablissment et l'évolution du virus dans le pays sélectionné.",
+            "text1":"Cette application est réalisée avec typescript, ReactTs, des graphiques Apex et quelques autres outils, nous pouvons visualiser les données de chaque pays grâce à l'aperçu des pays, a une sélection de pays nous obtenons un taux de mortalité /retablissment et l'évolution du virus dans le pays sélectionné.",
             "text2":"Sans oublier l'affichage mobile avec des graphiques réactifs optimisés pour les mobiles."
         },
         "cvBtn":"TELECHARGER LE CV"

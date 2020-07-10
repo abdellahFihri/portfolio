@@ -2,9 +2,9 @@ import React from "react";
 import Aos from "aos";
 import belgie1 from "../img/webshop.png";
 import covid1 from '../img/desktop.png';
-import covid2 from '../img/mobile.png'
+
 import belgie2 from "../img/webshop2.png";
-import airSelector from "../img/airSelector.png";
+
 import ijs from "../img/usersTable.png";
 import mini_tube from '../img/mini_youtube.png';
 import miniTubeVideo from '../Components/videos/mini_youtube.mp4';
