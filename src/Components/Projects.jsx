@@ -149,7 +149,7 @@ const Projects=( {
           >
           {covid.text2}
           </p>}
-          href="https://covid-19-stats.abdellahfihri.now.sh/"
+          href="https://covid-19-v3-ts.abdellahfihri.vercel.app/"
          >
             
          <Video videoSrc={covidMobile}/>
