@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a955cb79ecba153d8e6e9b5e90d238fc",
+    "revision": "1d8677edf765e6053e3a2ee729403763",
     "url": "/portfolio/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "a0deedf53a209c077644",
+    "revision": "c758a26bafda8ee800eb",
     "url": "/portfolio/static/css/main.3b7f75f9.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/js/2.a17a0265.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a0deedf53a209c077644",
-    "url": "/portfolio/static/js/main.e8d0b9f9.chunk.js"
+    "revision": "c758a26bafda8ee800eb",
+    "url": "/portfolio/static/js/main.9f63679b.chunk.js"
   },
   {
     "revision": "fc6fe1e4db4725daf59c",
@@ -44,12 +44,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/indexBG.c5659bdb.png"
   },
   {
-    "revision": "4274a8700aa48fe701dd0ac8654c5b60",
-    "url": "/portfolio/static/media/mini_youtube.4274a870.mp4"
+    "revision": "435ae47e6b0078a05b71006ae9351233",
+    "url": "/portfolio/static/media/lego.435ae47e.gif"
   },
   {
-    "revision": "7ad9d9690daf71629919c92d23bc9dc9",
-    "url": "/portfolio/static/media/mini_youtube.7ad9d969.png"
+    "revision": "5ae5491fcbc8ee5fe2ca6d792638ca13",
+    "url": "/portfolio/static/media/lego2.5ae5491f.png"
+  },
+  {
+    "revision": "4274a8700aa48fe701dd0ac8654c5b60",
+    "url": "/portfolio/static/media/mini_youtube.4274a870.mp4"
   },
   {
     "revision": "25be222e06f8553421179384248d2115",
@@ -60,11 +64,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/usersTable.194b26bc.png"
   },
   {
-    "revision": "c11a8e911938ab4ea08982cea3809adf",
-    "url": "/portfolio/static/media/webshop.c11a8e91.png"
-  },
-  {
-    "revision": "0f9fd71ac43257e0f984194d65b8f3df",
-    "url": "/portfolio/static/media/webshop2.0f9fd71a.png"
+    "revision": "8a05240275915861be90bc5ad1ca24a0",
+    "url": "/portfolio/static/media/youtube.8a052402.png"
   }
 ]);
